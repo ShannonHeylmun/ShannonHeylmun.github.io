@@ -1,0 +1,779 @@
+[
+    {"name":"Meyer",
+        "fullname":"Christopher H. Meyer",
+        "special":"Active Secret Security Clearance",
+        "email":"chris@synapticsparks.org",
+        "skills":[
+            {"headline":"Java, C++, C Sharp",
+            "body":"Intermediate - Able to quickly understand syntax in multi-threaded, safety critical systems; code with API guidance, and architect efficient object-oriented solutions"},
+            {"headline":"C, Corba, Ada95",
+            "body":"- Basic - Able to understand most syntax for existing software systems, code with API and template guidance, and able to fulfill programmatic goals with room for optimization"},
+            {"body":"Proficient with 3DSMax, DOORS, Clearcase, ClearQuest, Rational Rose UML Design, Microsoft Office Suite, Microsoft Project, Oracle/SQL Database Tools, Eclipse, and Visual Studio Development Environments"},
+            {"body":"Experience with Multimedia Design Tools such as Adobe Premier, After Effects, Encore, Photoshop, and Soundbooth/Audition"},
+            {"body":"Proven Leadership Across Professional and Volunteer Domains in Activities Involving Hundreds of Participants"}
+        ],
+        "experience":[
+            {"dates":"January 2013 - Current",
+            "employer":"Synaptic Sparks, Inc. (Non-Profit)",
+            "title":"President and Chief Executive Officer",
+            "website":["http://www.synapticsparks.org/"],
+            "about":["Overseeing Production Chains for Educational Video Game and Movie Releases",
+            "Building Partnerships at K12 and University Education Levels","Along with Co-Founders, Strategized Organizational Vision to Produce STEM-Related Paradigm Changes for Education"]
+            },
+            {"dates":"June 2011 - Current",
+            "employer":"Lockheed Martin Mission Systems and Training",
+            "title":"Software Engineer Senior – Prepar3D®",
+            "website":["http://www.prepar3d.com/"],
+            "about":["Coded C#, C++, and C Solutions for Graphical User Interfaces, Artificial Intelligence, Scenario Content Generation, and Weapon Guidance Systems","Created and Imported 3D Aircraft, Weapon, and Object Models","Learned and Applied AGILE Software Engineering Methodologies"]
+            },
+            {"dates":"January 2011 - Current ",
+            "employer":"Solar Havoc Industries",
+            "title":"Chief Operating Officer",
+            "about":["Responsible for Constructing Technical Frameworks Enabling Collaboration Between 20 Employees on a National Level", "Designed Profitable Solutions for Video Editing, Photography, Special Effects, Automated Tools, and Film Production", "Oversaw Production of Graphic Novels, Comics, DVDs, and Paperback/Hardback Books"]
+            },
+            {"dates":"January 2011 – June 2011",
+            "employer":"Lockheed Martin Global Training and Logistics",
+            "title":"Software Lead – Irregular Warfare and Stability Operations",
+            "about":["Led Team of 2 – 4 System and Software Engineers in C Sharp Design, Development, Integration, and Deployment Tasks","Demonstrated System Capabilities to Lockheed Martin Executives and Department of Defense Customers","Utilized C Sharp, Serious Gaming Technology, and Cultural Training Methodologies to Create National Defense Solutions"]
+            },
+            {"dates":"June 2008 – June 2011",
+            "employer":"Lockheed Martin Global Training and Logistics",
+            "title":"Engineering Leadership Development Program Graduate",
+            "about":["Contributed Weekly Averages of 40% Unpaid Overtime to Ensure Maximum Learning and Overall Programmatic Success","Completed Three Yearly Milestones as Stretch Assignments (Virtual World Joint Strike Fighter Flight Trainer, Engineering Week Organization, and Strategic Capstone Project)","Trained for Future Careers in Functional Management, Technical Leadership, and Program Management Roles"]
+            },
+            {"dates":"July 2009 – December 2010",
+            "employer":"Lockheed Martin Simulation, Training, and Support",
+            "title":"Software Engineer & Systems Architect – Virtual World Labs",
+            "about":["Innovated Technical Solutions in Research and Development to Meet Department of Energy, Education, and Health Challenges","Assisted with Creation of Architectures for Reward Systems, Configuration Management, and Leveraging Social Networks","Created Proposals for New Business in Whitespace Research Areas"]
+            },
+            {"dates":"July 2006 – May 2007; October 2007 – June 2009",
+            "employer":"Lockheed Martin Simulation, Training, and Support",
+            "title":"Software Engineer / Acting Release 5 Software Lead – DDG 1000 Ship Domain Controller",
+            "about":["Performed Acting Lead Duties Including Account Management of $100K Monthly, Tasking, Earned Value Reporting, and Resource Scheduling for 6 – 12 Team Members","Led Design, Java Coding, and Unit Testing of Guided Missile Destroyer Automation Components","Assumed Deconfliction and Prioritization Analysis Component Lead Responsibility for Detail Design Phase"]
+            },
+            {"dates":"June 2007 – September 2007",
+            "employer":"Lockheed Martin STS",
+            "title":"Software Engineer – Virtual Combat Convoy Trainer (Kuwait)",
+            "about":["Crafted Software Design and Traceability Requirements Utilizing DOORS Application","Created Unified Markup Language (UML) Design Documentation for Preliminary and Detail Design Phases","Prepared 998,000 Pre-Existing Software Lines of Code for MultiLingual Arabic/English Integration"]
+            },
+            {"dates":"May 2005 – August 2005",
+            "employer":"Lockheed Martin STS",
+            "title":"College Student Tech Senior Specialist (Internship)",
+            "about":["Examined Theatre-Level War Simulation Coding Structure and Created Japanese Graphical User Interface (GUI) Windows in Java","Aided in Development of Japanese Business Contacts","Familiarized Self with Lockheed Martin Policies and Procedures, Specifically for International Business Development"]
+            },
+            {"dates":"August 2004 – July 2006",
+            "employer":"Kansas State University",
+            "title":"Graduate Teaching Assistant",
+            "about":["Managed 4 Teaching Assistants Instructing 3,200 Students in Introductory Computing Courses","Aided Professors in Instruction of 40 – 90 Students for Computational Logic and Artificial Intelligence Courses"]
+            }
+        ],
+        "education":[
+            {"dates":"2004 – 2008",
+            "institution":"Kansas State University",
+            "location":"Manhattan, KS",
+            "degree":"Master’s Degree in Computer Science",
+            "studies":"Thesis Emphasis in Natural Language Processing and Artificial Intelligence",
+            "accolades":"Contributed to Open Source Initiatives by Submitting Automatic Text Translator Software for Japanese-to-English Conversions"
+            },
+            {"dates":"1998-2004",
+            "institution":"Kansas State University",
+            "location":"Manhattan, KS",
+            "degree":"Bachelor’s Degree in Computer Science",
+            "studies":"Minors in Economics and Japanese",
+            "accolades":"Studied Abroad for 1 Year at Nagoya - Chukyo University, Japan"
+            },
+            {"dates":"2002 - 2003",
+            "institution":"Chukyo University",
+            "location":"Nagoya, Japan",
+            "degree":"Study Abroad",
+            "studies":"Studied Japanese Language, Artificial Intelligence, and Programming Principles",
+            "accolades": "Extracurricular Activities Included Kendo and Calligraphy"
+            }
+        ],
+        "interests":[
+            "Co-Owner of Solar Havoc Industries LLC, an Orlando-based multimedia company with specializations in the film industry including high-definition filming, special effects editing, and script writing",
+            "Intermediate-High level of Japanese language fluency (conversational on a patient 1-to-1 basis at a middle-school level, in addition to Intermediate-Low levels of reading and writing)",
+            "Participating actively as a mentor to no less than 5 coworkers per month consisting of bi-weekly or monthly meetings and career development discussions",
+            "Volunteering for cultural affinity groups and as a tour guide for student tours of corporate facilities",
+            "Actively maintaining technical expertise in serious gaming, artificial intelligence, and natural language processing technologies",
+            "Hobbies include golf, attending live musical events, and studying international economics and culture with family and friends"
+        ],
+        "references":["Available upon request"]
+    },
+    {"name":"Hollis",
+        "fullname":"Howell (Beau) Hollis",
+        "special":"Active Secret Security Clearance",
+        "email":"beau.hollis@gmail.com",
+        "skills":[
+            {   
+                "headline":"Programming",
+                "body":"C++/ C / C# / Java, DirectX11/HLSL, OpenGL"
+            },
+            {   
+                "headline":"Leadership",
+                "body":"Leading Software Projects, Software Design and Architecture, Planning, Estimating, and Tasking"
+            },
+            {   
+                "headline":"Software",
+                "body":"Visual Studio, Photoshop"
+            }
+        ],
+        "experience":[
+            {"dates":"2011 – Current",
+            "employer":"Lockheed Martin",
+            "title":"Software Engineer Sr.",
+            
+            "about":["Currently leading a team of 6 engineers to design and develop a DirectX11 Rendering System for the Prepar3D® commercial simulation software. Named on 19 IP submissions pending review for patent application.","Inventor of the Year Award: 3rd highest submitter of new IP in the business unit in 2012. "]
+            },
+            {"dates":"June 2011 – Current",
+            "employer":"Lockheed Martin",
+            "title":"Software Engineer",
+            
+            "about":["Developed several key features for Prepar3D including Bathymetry, Sensors, DirectX Gauges, Render To Texture Views.","Named on four patent applications.","Developed new procedural texture generation techniques for large scale terrain visualization using Photoshop scripting.","Developed several key features of a visualization framework based on Open Scene Graph."]
+            },
+            {"dates":"2006",
+            "employer":"Microsoft",
+            "title":"Intern",
+            
+            "about":["Summer internship as a Program Manager on the Windows Live Search (now called Bing), Core User Experience team. Designed a new feature for Windows Live Search."]
+            },
+            {"dates":"2004, 2005 ",
+            "employer":"NASA Goddard Space Flight Center",
+            "title":"Intern (2 Years)",
+            
+            "about":["Two summer internships.","Developed a user interface framework and a 3D simulation of a miniature Mars rover.","Won a presentation award."]
+            },
+            {"dates":"2003",
+            "employer":"Digital Worlds Institute",
+            "title":"3D Modeler",
+            
+            "about":["Modeled and textured buildings from the UF campus for the Digital Worlds sesquicentennial multimedia production. An excerpt was included in a nationally televised commercial for the university."]
+            }
+        ],
+        "education":[
+            {"dates":"2005, 2007",
+            "institution":"University of Florid",
+            "location":"Gainesville, FL",
+            "degree":"BS and MS Degrees in Computer Engineering - Digital Arts and Science"
+            }
+        ],
+        "projects":[
+            "Built a 3D PC and Xbox 360 game using C# and XNA.",
+            "Developed a virtual reality application. ( C++, Ogre, Head Mounted Display, IR Tracker)",
+            "Built a 3D game that uses music analysis to augment its game-play in real time. (Team project)",
+            "Produced a standalone action/adventure game. (Lead programmer on a team of 4 using the open source Quake II engine.)",
+            "Built a music-browsing application that represents songs as 3d objects and allows for multi-dimensional sorting. Conducted a user study on the application. (C#, Axiom)",
+            "Implemented a 3D plant generator in both Java and Maya Mel scripts"
+        ],
+        "references":["Available upon request"]
+    },
+    {"name":"Maynard",
+        "fullname":"David S. Maynard",
+        "special":"Active Secret Security Clearance",
+        "email":"dax@synapticsparks.org",
+        "experience":[
+            {"dates":"January 2013 – Current",
+            "employer":"Synaptic Sparks, Inc.(Non-Profit)",
+            "title":"Vice-President and Chief Technology Officer",
+            "website":"http://www.synapticsparks.org/",
+            "about":["Producing Professional Multimedia Videos and Tools to Assist Teaching STEM-Related Curriculum",
+            "Building Partnerships at K12 and University Education Levels",
+            "Along with Co-Founders; Strategized Organizational Vision to Produce STEM-Related Paradigm Changes for Education"]
+            },
+            {"dates":"March 2013 – Current",
+            "employer":"Cole Engineering Services, Inc.",
+            "title":"Lead Game Designer",
+            "about":["Manage a team of game designers responsible for the definition of all game play, story, and environmental aspects of applications based on the EDGE platform",
+            "Serving as Resident Multimedia Expert Creating Marketing and Presentation Videos and Materials for Use in Tradeshows"]
+            },
+            {"dates":"January 2011 – Current",
+            "employer":"Solar Havoc Industries",
+            "title":"Chief Global Strategist",
+            "about":["Created ‘The Devil’s Minstrels' Concept, Webisodes, and Independent Films With Over One Million Followers",
+            "Co-Founded Frickbat Films, Celestial Fury Publishing, and Blind Jab Studios, and Oversaw Daily Operations"]
+            },
+            {"dates":"July 2006 – March 2013",
+            "employer":"Lockheed Martin",
+            "title":"Computer Scientist / Pre-Sales Engineer / Project Architect / Project Manager",
+            "about":["Performed as local VWL-Orlando (Virtual World Labs) technical lead and video game technology mentor for a diverse team that designs, implements and supports many projects, programs and research & development efforts utilizing a wide range of video game technologies both commercial and \"home grown.\"",
+            "Continued to be an active member of the group of corporate Video Game Technologies experts such as the Virtual World Labs group. Areas include Artificial Intelligence, COTS Game Engines, Custom Game Engine Design, MMOA (Massively Multiplayer Online Architectures), \"Mod\" Kits, Network Infrastructures, Physics, and Scripting. The home grown game engine \"UltiSim\" has been featured at numerous cross industry trade shows including AETC 2008-2011, ModSim 2008-2011 and I/ITSEC 2008-2011.",
+            "Acted as the Principle Engineer within the Advanced Programs and Strategic IR&D (Independent Research and Development) group with a focus on leveraging cutting (bleeding) edge Video Game Industry technologies for professional development and student centric K-12 Education.",
+            "Worked as a focal member of the Strategic IR&D (Independent Research and Development) group in charge of all aspects of the technical design and implementation of a Space (NASA / US Air Force) initiative, with a focus on the integration of both internal and COTS toolsets to discover new training mechanisms. Featured at I/ITSEC 2007."]
+            },
+            {"dates":"September 2004 – March 2006",
+            "employer":"L-3 Communications Link Simulation and Training",
+            "title":"Senior Software Engineer I / Computer Scientist / Project Architect / Project Manager",
+            "about":["Acted as Principal Investigator and IR&D (Independent Research and Development) Lead for Game Technologies and Schoolhouse Analysis Modeling & Simulation",
+            "Worked as a member of the Strategic IR&D (Independent Research and Development) group with concentrations in discrete event simulation, web-enabled technologies and commercial video game technologies for use in various training environments.",
+            "Worked as a co-lead of the Link Simulation & Training Strategic IR&D (Independent Research and Development) team that successfully demonstrated video game technologies integrated into a distributed simulation suite of legacy Link simulators. It demonstrated a correlated faux Iraq city with a Game Engine and a suite of legacy simulators, an integrated DIS multiplayer layer where the game's 3 players were entities within the legacy simulator suite and visa-versa, and an additional capability within the video game where the players extracted off of a roof top as they mounted an FSXXI UH-60 simulator. Primary Showcase at I/ITSEC 2005.",
+            "Worked as a member of the Link Simulation & Training Strategic IR&D (Independent Research and Development) team that successfully demonstrated web-enabled technologies integrated into a distributed simulation suite of legacy Link simulators. It demonstrated the packaging and distribution of DIS packets via the web and the creation of DIS entities via the Internet Explorer web browser. Featured at I/ITSEC 2004."]
+            },
+            {"dates":"October 2001 – September 2004",
+            "employer":"Lockheed Martin Simulation, Training, and Support",
+            "title":"Software Engineer / Computer Scientist",
+            "about":["Worked as a member of the Core IR&D (Independent Research and Development) Modeling and Simulation group with a concentration on discrete event simulation in a training environment.",
+            "Worked in the initial software development team for BC2T (Battlegroup Command and Control Trainer), now designated CORE-t (Command Operational Readiness Trainer) for the UK until contract award. Featured at I/ITSEC 2003. Duties included use of \"extreme programming\" software design / development / lifecycle techniques within an IR&D (Independent Research and Development) philosophy to meet an aggressive schedule and ultimately achieve contract award. Other duties included systems administration for a interoperable Linux and Window's network.",
+            "Worked on a self-created / self-scheduled program within the Core IR&D (Independent Research and Development) team designated Lifeforms, which was a proof-of-concept prototype to show commercial video game technologies inserted into a military simulation framework. Lifeforms was showcased within the IR&D (Independent Research and Development) booth at I/ITSEC 2002",
+            "Worked in the software development team for CCTT (Close Combat Tactical Trainer) for the purpose of adding the M2A3 (Bradley Fighting Vehicle) into the current simulation architecture. Duties included software development, systems administration for Linux and Solaris for Intel networks, and design / implementation of a Virtual I/O test tool."]
+            }
+        ],
+        "skills":[
+            {   
+                "headline":"Programming Languages",
+                "body":"Ant, Ada, Arena, C, C++, C#, Java, JDOM, JNI, OpenGL, Open Inventor, Motif, Perl, Postscript, SQL, Visual Basic, VRML, X, XML"
+            },
+            {
+                "headline":"Applications, Operating Systems, and Tools",
+                "body":"Microsoft Access, SQL Server, Sun MySQL, Microsoft Windows 95/98/NT/ME/ 2000/XP/Server 2003/Vista/Windows 7, UNIX/Linux/Irix/AIX, Solaris for Intel, (32 bit & 64 bit for all applicable), Bloodshed Dev C++, Borland C++, Builder Xcessory PRO, Code Warrior, Eclipse, GLUT, JCreator, Microsoft Visual Studio, NetBeans, PowerAda, WinCVS"
+            },
+            {
+                "body":"Proficient with Graphics Programming (Including OpenGL and Open Inventor), Game Tech Design and Implementation, Game Engine Mods to Full Source Productization, and Game Tech History"
+            },
+            {
+                "body":"Expert in Music / Sound Effects and Video Production"
+            },
+            {
+                "body":"Formal Experience with Customer-Facing Presentations and Public Speaking. Successfully Representing Corporate Society to U.S. Department of Education, the Bill Gates Foundation, the Stupski Foundation, the Federal Bureau of Investigation, and More."
+            }
+        ],
+        "awards":[
+            {"name":"Innovation 'Champion' 2013",
+            "for":"Patent Authoring"},
+            {"name":"Technology Spotlight 2013",
+            "for":"'Agile' Video Game Technologies"},
+            {"name":"Spot Award 2012",
+            "for":"'Herculean Efforts' -- ICE STORM & UCF RTP3 Game Based Tech"},
+            {"name":"Diversity and Inclusion Champion 2011",
+            "for":"on behalf of the GVSC Team"},
+            {"name":"Innovation 'Champion' 2011",
+            "for":"Patent Authoring"},
+            {"name":"GTL Peer to Peer Award 2010",
+            "for":"Teamwork & Inclusiveness"},
+            {"name":"Diversity and Inclusion Champion 2010",
+            "for":"on behalf of the VWL Team"},
+            {"name":"Innovation 'Champion' 2010",
+            "for":"Patent Authoring"},
+            {"name":"New Technology of the Year 2009",
+            "for":"GRITS2 (Generic Realtime Integrated Trainer for Space Systems)"},
+            {"name":"Special Recognition Award 2008",
+            "for":"Internal & External Presentation Excellence"},
+            {"name":"Outstanding Achievement 2005",
+            "for":"Development, Integration and Demonstration for the I/ITSEC 2005 Conference Exhibits"},
+            {"name":"Outstanding Achievement 2004",
+            "for":"Development, Setup and Support of the I/ITSEC 2004 Conference Exhibits"},
+            {"name":"Galaxy Award 2004",
+            "for":"Team of the Year (Highest Business Unit Honor)"},
+            {"name":"Spot Award 2004",
+            "for":"ITC M&S"},
+            {"name":"Special Recognition Award 2003",
+            "for":"Homeland Security M&S"},
+            {"name":"Certificate of Appreciation 2003",
+            "for":"BC2T"},
+            {"name":"Certificate of Appreciation 2003",
+            "for":"Advanced Programs M&S"},
+            {"name":"Spot Award 2002",
+            "for":"Independent Development of the 'Matrix Panel'"}
+        ],
+        "interests":[
+            "Expertise in Video Production includes complex 2D animation, green screen (keying) techniques, custom special effects design and creation, and advanced matte creation",
+            "Volunteering for cultural affinity groups and as a presenter for student tours of corporate facilities"
+        ],
+        "projects":[
+            "Published Dr. Greg Harrison, David S. Maynard, and Dr. Eytan Pollak. 2004. \"Automated Database and Schema-Based Data Interchange for Modeling and Simulation.\" Appeared in the Proceedings of the 2004 Winter Simulation Conference, IEEE Press."
+        ],
+        "references":["Available upon request"]
+    },
+    {"name":"Kalaf",
+        "fullname":"Michael K. Kalaf Jr.",
+        "special":"Secret Security Clearance",
+        "email":"LOF0258@gmail.com",
+        "experience":[
+            {"dates":"January 2013 - Present",
+            "employer":"Lockheed Martin Mission Systems and Training",
+            "title":"Sr. Manager - Business Development, New Ventures, Orlando, FL",
+            
+            "about":["Business development for New Ventures",
+            "Business development adjacent markets - education domain",
+            "Education programs: Learning Registry; RTP3; LRMI",
+            "Researched and analyzed the education market, formulated architectural concepts, promoted advocacy, captured strategic CRAD."]
+            },
+            {"dates":"March 2005 - December 2012",
+            "employer":"Lockheed Martin Mission Systems and Training",
+            "title":"Sr. Manager - Business Development Advanced Programs, Orlando, FL",
+            "about":["Leading the Business Development for adjacent markets ",
+            "PM for several CRAD programs (LM internal and external)",
+            "PM for the LM “Lighthouse” M&S. Established the program pre-ribbon cutting into operations",
+            "Responsible for the STS Global Vision Solution Center (GVSC) concept, design, integration, operations and strategic planning. Supported LMSI (Owego) for the Future Tactical Truck System (FTTS). The relationship developed into an STS logistics role in the JLTV multi-billion dollar effort."]
+            },
+            {"dates":"December 2001 - March 2005",
+            "employer":"Lockheed Martin Mission Systems and Training",
+            "title":"Systems Engineer Sr. Staff - Advanced Programs, Orlando, FL",
+            "about":["The Project Director for the Advanced Programs (CRAD) programs for LM STS. PM for PEO-STRI STOC I program. Specifics include Army Experiment, C3 Driver, Advanced Concept Research Tool, Mounted Warfare Test Bed. "]
+            },
+            {"dates":"December 2000 - November 2001",
+            "employer":"Lockheed Martin Mission Systems and Training",
+            "title":"Advanced Programs ADST II Program Manager - ADST II, Orlando, FL ",
+            "about":["Responsible for $125 M of contracts","Programmatically responsible for over 100 employees"]
+            },
+            {"dates":"June 1996 - November 2000",
+            "employer":"Lockheed Martin Mission Systems and Training",
+            "title":"Advanced Programs Delivery Order Project Director - Orlando, FL",
+            "about":["The DO's varied from $100K to over $5M", "Responsible for $5 M of contracts."]
+            },
+            {"dates":"August 1994 - June 1996",
+            "employer":"Lockheed Martin Mission Systems and Training",
+            "title":"Advanced Programs Delivery Order Project Director - Orlando, FL",
+            "about":["The DO’s varied from $100K to over $2M","Responsible for $4 M of contracts"]
+            },
+            {"dates":"June 1991 - July 1994",
+            "employer":"SBS Technologies",
+            "title":"S/W Manager - Houston, TX",
+            "about":["Manager of the Avionics Integration Area, AIA, for Space Station Freedom. Responsible for the avionics testing architecture.",
+            "Led Flight S/W SBST - MH60G, MH53J (Kirtland); Bell 212 (Mexican Army)"]
+            },
+            {"dates":"March 1988 - June 1991",
+            "employer":"SBS Technologies",
+            "title":"Director - Los Angeles Operations, CA",
+            "about":["Led team of 14 supporting the first flight of the C17 aircraft.","Integrated the avionics and flight controls.","Critical path for first flight of the C17. "]
+            },
+            {"dates":"July 1986 - February 1988",
+            "employer":"AAI Corporation, Maitland, FL",
+            "title":"Project Engineer - Maitland, FL"
+            },
+            {"dates":"March 1984 - June 1986",
+            "employer":"Link Simulation, Binghamton, NY",
+            "title":"Software Sr. Engineer - Binghamton, NY"
+            },
+            {"dates":"June 1981 - March 1984",
+            "employer":"Link Simulation, Binghamton, NY",
+            "title":"Hardware Engineer - Binghamton, NY "
+            }
+        ],
+        "skills":[
+            {   
+                "headline":"",
+                "body":"Over 30 years of Training and Simulation experience"
+            },
+            {   
+                "headline":"",
+                "body":"Program Management, Business Development, Engineering Management"
+            },
+            {   
+                "headline":"",
+                "body":"Superior program execution, have received maximum award fees and high customer recognition"
+            },
+            {   
+                "headline":"",
+                "body":"Passion for business models and technology innovation"
+            },
+            {   
+                "headline":"",
+                "body":"Strategic planning and development"
+            },
+            {   
+                "headline":"",
+                "body":"Working with new technology concepts, prototypes and experimentation with complex system architectures"
+            },
+            {   
+                "headline":"",
+                "body":"Principle Investigator IRAD, CRAD & CRADA’s (16+ yrs)"
+            },
+            {   
+                "headline":"",
+                "body":"Capture, Proposal, Program and Subcontract Management (25+ yrs)"
+            },
+            {   
+                "headline":"",
+                "body":"PM, Army Chief of Staff annual Army Experiment"
+            },
+            {   
+                "headline":"",
+                "body":"PM, Advanced Distributed Simulation Technology, ADST, IDIQ"
+            },
+            {   
+                "headline":"",
+                "body":"M&S PM, LMC Center for Innovation (Lighthouse). Led IPT’s including all LM business areas, Washington Operations and external customers. Business area horizontal integration. Briefed LM senior exec’s monthly."
+            },
+            {   
+                "headline":"",
+                "body":"White space/adjacent markets BD, PM, PI"
+            },
+            {   
+                "headline":"",
+                "body":"Led the concept, design, I&T of the Global Vision Solution Center (GVSC) in Orlando"
+            },
+            {   
+                "headline":"",
+                "body":"Engineering Manager Avionics Integration (first flight C17, B2, Space Station Freedom)"
+            },
+            {   
+                "headline":"",
+                "body":"Familiar with the numerous real and simulated aviation and ground platforms including: JLTV, C17, B2, C130, MH60, F22, AH64, Bell 212, Biz Jets, 757, 747…."
+            },
+            {   
+                "headline":"",
+                "body":"Board member; Central Florida STEM, Seminole County public Schools Foundation"
+            }
+        ],
+        "education":[
+            {"dates":"1981",
+            "institution":"Binghamton University",
+            "location":"Binghamton, NY",
+            "degree":"School of Management",
+            "studies":""
+            },
+            {"dates":"1981",
+            "institution":"Rochester Institute of Technology (RIT)",
+            "location":"Rochester, NY",
+            "degree":"Bachelor of Science Mechanical Engineering",
+            "studies":"Concentration - Fluid Mechanics"
+            }
+        ],
+        "awards":[
+            {"name":"Employee of the Month",
+            "for":"11/98, 2/07"},
+            {"name":"Special Recognition Award ",
+            "for":"5/04"},
+            {"name":"Galaxy Award",
+            "for":"2/12, 2/05"},
+            {"name":"Spot Award",
+            "for":"5/05"}
+        ],
+        "interests":[
+            "Board member: Seminole County Public School foundation",
+            "Board member: Central Florida STEM Council",
+            "Board member: National Center for Simulation Education",
+            "Board member: Workforce Development Committee",
+            "Family: Married (21 yrs) to Mary and have a son Michael (20 yrs old)",
+            "Nutrition, conditioning, and health are a passion."
+        ],
+        "references":[
+            "Available upon request"
+        ]
+    },
+    {"name":"Wiggins",
+        "fullname":"Liz Wiggins",
+        "special":"Vice President - Board of Directors",
+        "email":"liz@synapticsparks.org",
+        "experience":[
+            {
+                "dates":"June 2015 - present",
+                "employer":"SSI",
+                "title":"Vice President and Research and Development Manager",
+                "website":"http://www.synapticsparks.org/",
+                "about":[""]
+            },
+          {
+                "dates":"August 2010 - December 2015",
+                "employer":"University of Florida Mathematics Department",
+                "title":"Teaching Assistant",
+                "website":"",
+                "about":[""]
+            },
+          {
+                "dates":"June 2010",
+                "employer":"Pre-College Academic Experience in Math and Science (PAEMS)",
+                "title":"Teaching Assistant in Mathematics",
+                "website":"",
+                "about":[""]
+            },
+          {
+                "dates":"August 2007 - May 2010",
+                "employer":"Georgetown College Mathematics Department",
+                "title":"Group Tutor",
+                "website":"",
+                "about":[""]
+            },
+          {
+                "dates":"July 2009 - September 2009",
+                "employer":"Fifth Third Bank",
+                "title":"Intern to Private Banking",
+                "website":"",
+                "about":[""]
+            },
+          {
+                "dates":"June 2008 - August 2008",
+                "employer":"Missouri State University Mathematics Department",
+                "title":"Research Assistant",
+                "website":"",
+                "about":[""]
+            },
+          {
+                "dates":"February 2008 - May 2008",
+                "employer":"U.S. Polo Association",
+                "title":"Administrative Assistant",
+                "website":"",
+                "about":[""]
+            }
+        ],
+        "education":[
+            {
+                "dates":"2012 - 2015",
+                "institution":"University of Florida",
+                "location":"Gainesville, FL",
+                "degree":"Doctor of Philosophy",
+                "studies":"Mathematics"
+            }, 
+          {
+                "dates":"2010 - 2012",
+                "institution":"University of Florida",
+                "location":"Gainesville, FL",
+                "degree":"Master of Science",
+                "studies":"Mathematics"
+            }, 
+          {
+                "dates":"2006 - 2010",
+                "institution":"Georgetown College",
+                "location":"Georgetown, KY",
+                "degree":"Bachelor of Science",
+                "studies":"Mathematics"
+            }
+        ],
+        "awards":[
+            {
+                "name":"UF's Graduate Student Teaching Award",
+                "for":"Named one of 20 top Graduate Student Teaching Assistants at UF in 2015."
+            },{
+                "name":"UF Mathematics Graduate Student Teaching Award",
+                "for":"Named one of six top Graduate Student Teaching Assistants in the mathematics department at UF in May 2015."
+            },{
+                "name":"Outstanding Senior in Mathematics",
+                "for":"Named the top senior in the mathematics department at Georgetown College in April 2010."
+            },{
+                "name":"Outstanding Freshman in Mathematics",
+                "for":"Named the top freshman in the mathematics department at Georgetown College in April 2007."
+            }
+        ],
+        "references":[
+            "Available upon request"
+        ]
+    },
+    {"name":"Heylmun",
+        "fullname":"Shannon Heylmun",
+        "special":"Secretary, Board of Directors",
+        "email":"shannon@synapticsparks.org",
+        "experience":[
+            {"dates":"January 2016 – Current",
+            "employer":"Synaptic Sparks, Inc. (Non-Profit)",
+            "title":"Sectretary",
+            "website":["http://www.synapticsparks.org/"],
+            "about":[""]
+            },
+            {"dates":"May 2013 – Current",
+            "employer":"Valencia College",
+            "title":"Adjunct Mathematics Faculty",
+            "website":["http://valenciacollege.edu/"],
+            "about":["Teaching experience includes College Algebra, College Mathematics, Mathematics for the Liberal Arts, Trigonometry, and Differential Equations"]
+            },
+            {"dates":"January 2014 - Current",
+            "employer":"",
+            "title":"Freelance Web Developer",
+            "website":["http://www.voidstarsolutions.com/","http://www.benrussomath.com","http://www.synapticsparks.org/"],
+            "about":["Experience developing several sites from the ground up and working on existing projects."]
+            },
+            {"dates":"January 2011 – April 2013",
+                "employer":"University of Florida - Department of Mathematics",
+                "title":"Teaching Assistant",
+                "about":["Taught during five semesters in the U.F. mathematics department including the Summer B term of 2012","Teaching experience includes Precalculus Algebra, Calculus I, and Trigonometry"]
+            },
+            {"dates":"January 2007 – December 2008",
+                "employer":"Valencia Community College",
+                "title":"Mathematics and Language Tutor",
+                "about":["Tutored students in various levels of English as a Second Language, later adding English Composition, Beginning and Intermediate Portuguese, and mathematics from College Algebra through Calculus 2", "Particular focus on working with small groups and helping students to close gaps in their understanding and develop their ability to study mathematics effectively"]
+            }
+        ],
+        "skills":[
+            {"headline":"Expertise in all core undergraduate mathematics",
+                "body":"remedial math courses, College Algebra, Precalculus, Calculus I-III, Differential Equations, and Statistics"
+            },{"headline":"Proficiency in advanced theoretical topics",
+                "body":"Linear Algebra, Abstract Algebra, Real and Complex Analysis, Logic, and Topology"
+            },{"headline":"Communication and Organization",
+                "body":"Lecture style honed by years of teaching and evaluation; diverse communication styles help facilitate different learning types and levels of understanding within each class. Experience managing classes of up to 32 students."
+            },{"headline":"Web Design",
+                "body":"A strong focus on usability and effective communication.  Years of presentation refinement in teaching has led to deep appreciation of the psychology of learning as it pertains to design."
+            },{"headline":"Programming Languages",
+                "body":"HTML, CSS, Javascript, LaTeX, Python, R"
+            },{"headline":"Front-end frameworks",
+                "body":"including Bootstrap, Foundation, Pure, and Skeleton"
+            },{"headline":"CSS preprocessors",
+                "body":"primarily SCSS, but also including Sass, LESS, and Compass"
+            },{"headline":"Server- and client-side web frameworks",
+                "body":"AngularJS, NodeJS, Ruby on Rails, MEAN Stack"
+            },{"headline":"Tools",
+                "body":"Visual Studio, Visual Studio Code, Bower, NPM, TexStudio, Illustrator, Photoshop"
+            }
+        ],
+        "education":[
+            {"dates":"Spring 2013",
+            "institution":"University of Florida",
+            "location":"Gainesville, FL",
+            "degree":"Master of Arts in Teaching - Mathematics",
+            "studies":"Thesis focus on incorporating technology to benefit mathematics education"
+            },
+            {"dates":"Spring 2011",
+            "institution":"University of Florida",
+            "location":"Gainesville, FL",
+            "degree":"Bachelors of Science – Mathematics",
+            "studies":"Minor in Classical Studies"
+            },
+            {"dates":"Fall 2009",
+            "institution":"Valencia Community College",
+            "location":"Orlando, FL",
+            "degree":"Associate of Arts",
+            "studies":"Emphasis on Mathematics and Portuguese"
+            }
+        ],
+        "interests":[
+            "Studying foreign languages (including Portugues, German, Catalan, and French)","Traveling (visited China, Tibet, Brazil, and Canada)","Vegetarian Cooking","Yarn crafts, crochet, and knitting" 
+        ],
+        "references":[
+            "Available upon request"
+        ]
+    },
+    {"name":"Kennedy",
+        "fullname":"John Kennedy",
+        "special":"Board of Directors",
+        "email":"",
+        "experience":[
+            {
+                "type":"Film Credits",
+                "credits":[
+                    {"title":"Ace Ventura 3 (Feature Film)",
+                    "activity":"Designed, built, and performed an animatronic panda costume and puppet for this feature film"},
+                    {"title":"Old Dogs (Feature Film)",
+                    "activity":"Body suit performer"},
+                    {"title":"The Muppets Wizard of Oz (ABC prime time movie)",
+                    "activity":"Assistant coordinator and principal performer of many Muppet characters for this feature length TV movie."},
+                    {"title":"Cats and Dogs(Warner Bros Feature Film)",
+                    "activity":"Puppeteer for this feature film."},
+                    {"title":"A Very Muppet Christmas (NBC prime time movie)",
+                    "activity":"Performed Muppet characters for this feature length holiday movie."},
+                    {"title":"The Country Bears (Disney feature) ",
+                    "activity":"Puppeteered the animatronic bear Zeb Zoober"},
+                    {"title":"Kermit's Swamp Years (Jim Henson Home Entertainment)",
+                    "activity":"Puppet Captain and principal puppeteer of Blotch the Bullfrog and Arnie the Alligator."},
+                    {"title":"Muppets From Space (Sony feature)",
+                    "activity":"Assisted all main characters and coordinated choreographed production numbers. Performed animatronic Gonzos."}
+                ]
+            },{
+                "type":"Television Credits",
+                "credits":[
+                    {"title":"Einstein Pals (Disney DVD Series)",
+                    "activity":"John was Puppeteer Coordinator, performer of the character Miles the Raccoon, and played the role of the Waiter as himself in the two DVD episodes."},
+                    {"title":"Fetch with Ruff Ruffman \"Ruff's Big Break\" (PBS Series)",
+                    "activity":"Acted as himself, teaching kids to build their own puppets and perform them at the Boston Children's Hospital. Also performed multiple puppet characters during the episode. http://pbskids.org/fetch/"},
+                    {"title":"Activity TV(Comcast Cable Network)",
+                    "activity":"John stars in his own \"On Demand\" puppeteer series where he teaches kids how to build and perform their own puppet creations. The series is also available at www.activitytv.tv."},
+                    {"title":"Dinosaurs (ABC Sitcom)",
+                    "activity":"• Performed the animatronic expressions of Baby Sinclair, Sid, and Spike on the Henson Performance Control System. Also radio control for many others. Coordinated performances with body performers to create each character."},
+                    {"title":"Jack's Big Music Show (Noggin)",
+                    "activity":"Performed Mel the Dog, Royal Messenger Marvin, Sheldon the Grumpy Squirrel, Earl the Squirrel, and the team of Squirrel and Bologna Sandwich. http://www.noggin.com/shows/jacks.php"},
+                    {"title":"Animal Jam (The Learning Channel)",
+                    "activity":"Puppet captain and performer of DJ One, the Disc Jockey Panda."},
+                    {"title":"Telling Stories with Tomie DePaola",
+                    "activity":"Coordinator in charge of casting puppeteers and choreographing each puppet segment. Also performer and voice talent for Gabe the Squirrel, Big Anthony, and Lungs the Racoon."},
+                    {"title":"Aliens in the Family (ABC Sitcom)",
+                    "activity":"Performed the animatronic expressions of Bobut. "},
+                    {"title":"Brats of the Lost Nebula (Fox Kids)",
+                    "activity":"Responsible for performing the character Rile and voicing episodic characters. Built by the Jim Henson Creature Shop, these puppets involved radio, servo, and rod techniques."},
+                    {"title":"The Wubbulous World of Dr. Seuss (Nickelodeon)",
+                    "activity":"Principal performer for Horton the Elephant, Sam-I-Am, Norval the Fish, and more than 30 others. Coordinator of performers and mechanical rigs."},
+                    {"title":"Other Credits",
+                    "activity":"Muppets Tonight, Sesame Street, Elmo's World, Bear in the Big Blue House, Allegra's Window, Dog City, and Eureeka's Castle"}
+                ]
+            }
+        ],
+        "skills":[
+            {   
+                "headline":"Music Composition",
+                "body":"Children’s TV Show Music Composer, Live Production Composer"
+            },{   
+                "headline":"Musical Instruments",
+                "body":"Guitar, Banjo, Ukulele, Harmonica, and Bass Guitar"
+            },{   
+                "headline":"Musical Software",
+                "body":"Midi Music Composition, Voice-Over Software"
+            },{   
+                "headline":"Puppeteering",
+                "body":"Puppet Design and Construction, Costuming, Body Suit Performer, Animatronics Designer and Operator"
+            }
+        ],
+        "references":[
+            "Available upon request"
+        ]
+    },
+    {"name":"Wimmer",
+        "fullname":"Jann Wimmer",
+        "special":"Board of Directors",
+        "email":"jannwimmer@gmail.com",
+        "experience":[
+            {"dates":"June 2005 – Current ",
+            "employer":"Sony Imageworks",
+            "title":"Resource Manager",
+            
+            "about":["",
+            "Team management of 12-20 person technical support crew "," Budgeting, scheduling, and allocation of all hardware, software, and support assets required for CG film production "," Hardware resource requirement budgeting/projection/forecasting "," Oversight of digital pipeline changes/improvements required during the course of production "," Working with facility management personnel to organize production requirements "," Quality control for outgoing imagery "," 1st response for any urgent infrastructure changes, maintenance, and upgrades required during production "," Planning and organization of large-scale tasks such as screenings, VIP presentations, and integration with vendors",
+            "Feature film experience in Resource Manager role: Smurfs 2, The Amazing Spider Man, Green Lantern, Alice In Wonderland, Beowulf, Open Season"]
+            },
+            {"dates":"2008, 2010 – 2011",
+            "employer":"Sony Imageworks",
+            "title":"Associate Production Manager",
+            
+            "about":["Team coordination for 12-15 member Lighting and Compositing artists groups"," Scheduling and delivery of completed VFX work"," Development of communications with Imageworks India remote facility"," Project management for Imageworks India infrastructure roll-out","Feature film experience in Associate Production Manager role: Green Lantern, Open Season 2, Eagle Eye"]
+            },
+            {"dates":"November 2007 – May 2008",
+            "employer":"Sony Imageworks",
+            "title":"Instructor, Training and Artist Development",
+            
+            "about":["Development of training program for management toolset and workflow "," Teaching of weekly courses in a classroom setting "," Development and authoring of training materials for lighting tools "," Documentation of proprietary tools"]
+            },
+            {"dates":"June 2003 – June 2005 ",
+            "employer":"Sony Imageworks",
+            "title":"Senior Production Services Technician",
+            
+            "about":["Support role for conversion pipeline from standard film format to IMAX format"," Creation of scripts to facilitate IMAX conversion"," Working with production to anticipate resource needs"," Disk space management"," Scripted solutions for data tracking and organization"]
+            },
+            {"dates":"January 2002 – June 2003",
+            "employer":"Digital Domain",
+            "title":"Technical Coordinator",
+            
+            "about":["Creation and management of secure resource scheduling/booking tools "," Creation and management of automated image archive and conversion tools "," Render queue/pipeline troubleshooting "," Network hardware installation/troubleshooting "," Workstation troubleshooting and upgrading "," Providing courteous support to production teams "," Working with Systems department to smoothly implement hardware/software upgrades "," Minimizing artist downtime from hardware/software failure"]
+            },
+            {"dates":"June 2001 – December 2001 ",
+            "employer":"Digital Domain",
+            "title":"Technical Assistant",
+            
+            "about":["Creation and maintenance of graphical render management and tracking tools "," Render farm management"]
+            }
+        ],
+        "skills":[
+            {   
+                "headline":"Programming",
+                "body":"C, C++, Mel, Perl, Python, Visual Basic, Advanced object oriented design and programming, Perl/Python scripting, UNIX/Linux shell programming, Graphics programming (OpenGL)"
+            },{   
+                "headline":"Software",
+                "body":"Scheduling/Management: Microsoft Excel, Project, Filemaker Pro, Visual tools: Maya, Houdini, Photoshop, Operating System: Linux (power user), Windows (power user), MacOS (some experience)"
+            },{   
+                "headline":"Sony Training Classes",
+                "body":"Imageworks production management mentorship and training program, Sony Corporate project management study, Color and Lighting Tools study, 2-week course, Look Development weekly courses, Character rigging 2-week course, Production Toolset weekly courses"
+            }
+        ],
+        "education":[
+            {"dates":"Estimated Spring 2014",
+            "institution":"Touro University",
+            "location":"",
+            "degree":"Master of Business Administration",
+            "studies":""
+            },
+            {"dates":"Fall 2000",
+            "institution":"Florida State University",
+            "location":"",
+            "degree":"Bachelor of Science in Computer Science",
+            "studies":"Minor in Mathematics"
+            }
+        ],
+        "references":[
+            "Available upon request"
+        ]
+    }
+]
