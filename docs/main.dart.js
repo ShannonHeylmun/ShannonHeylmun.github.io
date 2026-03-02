@@ -71772,7 +71772,7 @@ $0(){return A.SW("shannonheylmun@gmail.com")},
 $S:0}
 A.Ic.prototype={
 O(a){var s=null
-return A.Vh(new A.u6(1,s,s),s,new A.fQ(s,new A.pD(new A.pc("sh_profile.jpeg")),s,A.U4(20),s,s,B.bz),s,s,s,100)}}
+return A.Vh(new A.u6(1,s,s),s,new A.fQ(s,new A.pD(new A.pc("assets/sh_profile.jpeg")),s,A.U4(20),s,s,B.bz),s,s,s,100)}}
 A.rx.prototype={
 O(a){return A.aiD(new A.eh(B.dh,A.apu(B.xq,this.c,8,8,B.e2),null),B.dh)}}
 A.ov.prototype={

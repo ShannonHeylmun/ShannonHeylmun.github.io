@@ -69,7 +69,7 @@ class ProfilePic extends StatelessWidget {
       width: 100,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
-        image: DecorationImage(image: AssetImage('sh_profile.jpeg')),
+        image: DecorationImage(image: AssetImage('assets/sh_profile.jpeg')),
       ),
       child: AspectRatio(aspectRatio: 1),
     );
