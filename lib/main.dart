@@ -44,19 +44,20 @@ class MyApp extends StatelessWidget {
         textTheme: GoogleFonts.asapTextTheme(textTheme),
       ),
       home: DefaultTabController(
+        initialIndex: 1,
         length: 3,
         child: Scaffold(
           appBar: AppBar(
             bottom: const TabBar(
               tabs: [
-                Tab(icon: ExperienceTabIcon()),
                 Tab(icon: EducationTabIcon()),
+                Tab(icon: ExperienceTabIcon()),
                 Tab(icon: ContactTabIcon()),
               ],
             ),
           ),
           body: const TabBarView(
-            children: [ExperienceScreen(), EducationScreen(), AboutScreen()],
+            children: [EducationScreen(), ExperienceScreen(), AboutScreen()],
           ),
         ),
       ),

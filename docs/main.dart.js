@@ -10203,7 +10203,7 @@ case 4:s=l.a
 s===$&&A.a()
 s=A.b9(s,200)
 r=A.b9(A.Wm(l,B.lY,B.GL),24)
-q=A.b9(A.Wm(l,B.lY,B.Hh),32)
+q=A.b9(A.Wm(l,B.lY,B.Hg),32)
 p=A.b9(l.a,10)
 o=A.b9(l.a,12)
 l.d===$&&A.a()
@@ -12202,9 +12202,11 @@ _.f=a
 _.r=b
 _.b=c
 _.a=d},
-uV:function uV(a,b,c){this.c=a
-this.f=b
-this.a=c},
+uV:function uV(a,b,c,d){var _=this
+_.c=a
+_.d=b
+_.f=c
+_.a=d},
 Ms:function Ms(a,b){var _=this
 _.d=$
 _.hP$=a
@@ -26046,7 +26048,7 @@ A.mr.prototype={
 G(){return"CanvasKitVariant."+this.b}}
 A.Xl.prototype={
 gko(){var s=this.b,r=s==null?null:s.canvasKitVariant
-return A.axe(B.Hb,r==null?"auto":r)},
+return A.axe(B.Ha,r==null?"auto":r)},
 gBk(){var s,r=this.b
 if(r==null)s=null
 else{r=r.canvasKitMaximumSurfaces
@@ -42679,7 +42681,7 @@ A.rF.prototype={
 G(){return"_CornerId."+this.b}}
 A.kb.prototype={}
 A.qe.prototype={
-j3(){var s,r,q,p=this,o=A.aDZ(B.He,new A.a1i(p,p.b.gb0().ae(0,p.a.gb0()))),n=p.a
+j3(){var s,r,q,p=this,o=A.aDZ(B.Hd,new A.a1i(p,p.b.gb0().ae(0,p.a.gb0()))),n=p.a
 n.toString
 s=o.a
 r=p.mX(n,s)
@@ -45027,7 +45029,7 @@ gmo(){return B.lr},
 Bf(a,b,c,d,e,f){return A.aws(a,b,c,d,e,f)}}
 A.HO.prototype={
 XJ(a){var s=t.Tr
-s=A.X(new A.ad(B.Hd,new A.a2w(a),s),s.h("av.E"))
+s=A.X(new A.ad(B.Hc,new A.a2w(a),s),s.h("av.E"))
 return s},
 j(a,b){if(b==null)return!1
 if(this===b)return!0
@@ -46154,10 +46156,12 @@ A.uV.prototype={
 aq(){return new A.Ms(null,null)},
 gF(a){return this.c}}
 A.Ms.prototype={
-aF(){var s,r=this
-r.b3()
-s=r.a.c
-r.d=new A.zc(A.TB(null,0,r),B.bF,s,0,0,$.aI())},
+aF(){var s,r,q=this
+q.b3()
+s=q.a
+r=s.c
+s=s.d
+q.d=new A.zc(A.TB(null,s,q),B.bF,r,s,s,$.aI())},
 l(){var s=this.d
 s===$&&A.a()
 s.l()
@@ -46738,7 +46742,7 @@ if(s!=null)s.l()
 r.aL()},
 Av(){this.a.toString
 var s=t.s9
-s=A.X(new A.ad(B.Ha,new A.afp(),s),s.h("av.E"))
+s=A.X(new A.ad(B.Hh,new A.afp(),s),s.h("av.E"))
 this.f=A.ay0(s)},
 zj(){var s,r=this
 if(r.x>0||r.d.f===0)return
@@ -71784,7 +71788,7 @@ O(a){var s=null,r=t.E
 return A.aiD(new A.eh(B.dh,new A.GI(A.ajH(A.c([new A.u6(1,A.an2(B.Y,new A.J8(3,A.ajH(A.c([new A.eh(B.Ec,A.yH(new A.vW(new A.pc("assets/quote.png"),s),s,2),s),A.cd(this.d,s,s,s,s)],r),B.bb,B.b_,B.f5,0),s),B.L,B.yQ),s),A.Va(A.c([A.cd(this.e,s,s,A.aA(a).ok.e,s),A.cd(this.f,s,s,A.aA(a).ok.z,s)],r),B.b_,0)],r),B.bD,B.b_,B.f5,0),s),s),B.dh)}}
 A.FV.prototype={
 O(a){var s=null,r=t.E
-return A.ajX(A.c([new A.ov(A.vS(B.GX),"Full-Stack Development",s),new A.rx(A.c([A.dU("https://flutter.dev/","Flutter"),A.dU("https://dart.dev/","Dart"),A.dU("https://git-scm.com/","Git"),A.dU("https://angular.dev","Angular"),A.dU("https://firebase.google.com","Firebase"),A.dU("https://aws.amazon.com","AWS"),A.dU("https://www.typescriptlang.org/","Typescript"),A.dU("https://developer.mozilla.org/en-US/docs/Web/HTML","HTML"),A.dU("https://www.ruby-lang.org/en/","Ruby"),A.dU("https://sass-lang.com","SASS"),A.dU("https://getbootstrap.com","Bootstrap"),A.dU("https://www.python.org/","Python"),A.dU("https://www.latex-project.org/","LaTeX"),A.dU("https://m3.material.io","Material Design"),A.dU("https://developer.apple.com/design/","iOS Design"),A.dU("https://www.interaction-design.org/literature/topics/responsive-design","Responsive Design")],r),s),new A.ov(A.vS(B.Hf),"Mathematics & Teaching",s),new A.rx(A.c([A.dU("https://bokcenter.harvard.edu/flipped-classrooms","Flipped Classroom"),A.dU("https://www.wise.live/blog/what-is-the-socratic-method-of-teaching/","Socratic Tutoring"),A.cd("Elementary Algebra",s,s,s,s),A.cd("Geometry",s,s,s,s),A.cd("Trigonometry",s,s,s,s),A.cd("Pre-Calculus",s,s,s,s),A.cd("Calculus",s,s,s,s),A.cd("Differential Equations",s,s,s,s),A.cd("Statistics",s,s,s,s),A.cd("Discrete Mathematics",s,s,s,s),A.cd("Probability",s,s,s,s),A.cd("Number Theory",s,s,s,s),A.cd("Combinatorics",s,s,s,s),A.cd("Sets & Logic",s,s,s,s),A.cd("Elementary Graph Theory",s,s,s,s),A.cd("Voting Theory",s,s,s,s)],r),s),new A.ov(A.vS(B.GQ),"Interests & Hobbies",s),new A.rx(A.c([A.dU("https://projecteuler.net/progress=s_heylmun","Project Euler"),A.cd("Mechanical Drafting",s,s,s,s),A.cd("3D-printing",s,s,s,s),A.cd("CNC",s,s,s,s),A.cd("SCUBA",s,s,s,s),A.cd("Portuguese",s,s,s,s),A.cd("Catalan",s,s,s,s),A.cd("Hungarian",s,s,s,s),A.cd("Gardening",s,s,s,s),A.cd("Animals",s,s,s,s)],r),s)],r))}}
+return A.ajX(A.c([new A.ov(A.vS(B.GX),"Full-Stack Development",s),new A.rx(A.c([A.dU("https://flutter.dev/","Flutter"),A.dU("https://dart.dev/","Dart"),A.dU("https://git-scm.com/","Git"),A.dU("https://angular.dev","Angular"),A.dU("https://firebase.google.com","Firebase"),A.dU("https://aws.amazon.com","AWS"),A.dU("https://www.typescriptlang.org/","Typescript"),A.dU("https://developer.mozilla.org/en-US/docs/Web/HTML","HTML"),A.dU("https://www.ruby-lang.org/en/","Ruby"),A.dU("https://sass-lang.com","SASS"),A.dU("https://getbootstrap.com","Bootstrap"),A.dU("https://www.python.org/","Python"),A.dU("https://www.latex-project.org/","LaTeX"),A.dU("https://m3.material.io","Material Design"),A.dU("https://developer.apple.com/design/","iOS Design"),A.dU("https://www.interaction-design.org/literature/topics/responsive-design","Responsive Design")],r),s),new A.ov(A.vS(B.He),"Mathematics & Teaching",s),new A.rx(A.c([A.dU("https://bokcenter.harvard.edu/flipped-classrooms","Flipped Classroom"),A.dU("https://www.wise.live/blog/what-is-the-socratic-method-of-teaching/","Socratic Tutoring"),A.cd("Elementary Algebra",s,s,s,s),A.cd("Geometry",s,s,s,s),A.cd("Trigonometry",s,s,s,s),A.cd("Pre-Calculus",s,s,s,s),A.cd("Calculus",s,s,s,s),A.cd("Differential Equations",s,s,s,s),A.cd("Statistics",s,s,s,s),A.cd("Discrete Mathematics",s,s,s,s),A.cd("Probability",s,s,s,s),A.cd("Number Theory",s,s,s,s),A.cd("Combinatorics",s,s,s,s),A.cd("Sets & Logic",s,s,s,s),A.cd("Elementary Graph Theory",s,s,s,s),A.cd("Voting Theory",s,s,s,s)],r),s),new A.ov(A.vS(B.GQ),"Interests & Hobbies",s),new A.rx(A.c([A.dU("https://projecteuler.net/progress=s_heylmun","Project Euler"),A.cd("Mechanical Drafting",s,s,s,s),A.cd("3D-printing",s,s,s,s),A.cd("CNC",s,s,s,s),A.cd("SCUBA",s,s,s,s),A.cd("Portuguese",s,s,s,s),A.cd("Catalan",s,s,s,s),A.cd("Hungarian",s,s,s,s),A.cd("Gardening",s,s,s,s),A.cd("Animals",s,s,s,s)],r),s)],r))}}
 A.ai3.prototype={
 $0(){return A.SX(this.a)},
 $S:0}
@@ -71798,7 +71802,7 @@ A.Hp.prototype={
 O(a){var s,r=null,q=A.aA(a)
 q=A.ak2(r,A.amo(B.U,r,r,B.c3),A.ayQ(q.ok),r)
 s=B.wX.gmf().b
-return new A.ww(new A.uV(3,A.azT(new A.u4(B.wX,new A.OU(r,s,1/0,56+s),r),B.PP,r),r),"Shannon Heylmun",q,!1,r)}}
+return new A.ww(new A.uV(3,1,A.azT(new A.u4(B.wX,new A.OU(r,s,1/0,56+s),r),B.PP,r),r),"Shannon Heylmun",q,!1,r)}}
 A.FW.prototype={
 O(a){return B.F3}}
 A.FF.prototype={
@@ -77833,18 +77837,11 @@ B.iq=new A.wj(2,"mandatory")
 B.lU=new A.wj(3,"endOfText")
 B.eW=new A.H0(B.he,A.a5("H0<dw>"))
 B.FR=new A.wm(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Er=new A.FW(null)
-B.PU=new A.rd(B.Er,null)
-B.Ej=new A.FF(null)
-B.PT=new A.rd(B.Ej,null)
-B.Dn=new A.EU(null)
-B.PS=new A.rd(B.Dn,null)
-B.dq=s([B.PU,B.PT,B.PS],t.E)
 B.FU=s([192,193,194],t.t)
-B.Hg=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
+B.Hf=s([1373.2198709594231,-1100.4251190754821,-7.278681089101213],t.n)
 B.H_=s([-271.815969077903,559.6580465940733,-32.46047482791194],t.n)
 B.Iw=s([1.9622899599665666,-57.173814538844006,308.7233197812385],t.n)
-B.FV=s([B.Hg,B.H_,B.Iw],t.zg)
+B.FV=s([B.Hf,B.H_,B.Iw],t.zg)
 B.Gh=s([4,9,14,19],t.t)
 B.HK=s([137,80,78,71,13,10,26,10],t.Z)
 B.Ff=new A.kR(0,"png")
@@ -77852,8 +77849,8 @@ B.Fr=new A.io(B.Ff,!1,0,"png")
 B.Fd=new A.jx(B.HK,B.Fr,0,"png")
 B.HL=s([71,73,70,56,55,97],t.Z)
 B.Fc=new A.jx(B.HL,B.eR,1,"gif87a")
-B.Hc=s([71,73,70,56,57,97],t.Z)
-B.Fb=new A.jx(B.Hc,B.eR,2,"gif89a")
+B.Hb=s([71,73,70,56,57,97],t.Z)
+B.Fb=new A.jx(B.Hb,B.eR,2,"gif89a")
 B.FW=s([255,216,255],t.Z)
 B.Fg=new A.kR(2,"jpeg")
 B.Fv=new A.io(B.Fg,!1,3,"jpeg")
@@ -77917,6 +77914,13 @@ B.yz=new A.bT(27,"color")
 B.yB=new A.bT(28,"luminosity")
 B.GH=s([B.y4,B.y5,B.yk,B.aJ,B.yD,B.yE,B.kd,B.yF,B.yG,B.yH,B.y6,B.y7,B.kb,B.kc,B.y8,B.ya,B.yc,B.ye,B.yg,B.yi,B.yl,B.yn,B.yp,B.yr,B.yt,B.yv,B.yx,B.yz,B.yB],A.a5("t<bT>"))
 B.GJ=s([B.h9,B.ha],A.a5("t<u7>"))
+B.Ej=new A.FF(null)
+B.PT=new A.rd(B.Ej,null)
+B.Er=new A.FW(null)
+B.PU=new A.rd(B.Er,null)
+B.Dn=new A.EU(null)
+B.PS=new A.rd(B.Dn,null)
+B.dq=s([B.PT,B.PU,B.PS],t.E)
 B.GL=s([18,15,10,12,15,18,15,12,12],t.n)
 B.GO=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.t)
 B.Kg=new A.ai(B.f9,["0","M5.14286 14C4.41735 12.8082 4 11.4118 4 9.91886C4 5.54539 7.58172 2 12 2C16.4183 2 20 5.54539 20 9.91886C20 11.4118 19.5827 12.8082 18.8571 14","currentColor","1.5","round"],t.w)
@@ -77975,16 +77979,12 @@ B.x3=new A.ly(2,"dotted")
 B.Q0=new A.ly(3,"dashed")
 B.Q2=new A.ly(4,"wavy")
 B.H4=s([B.PX,B.x2,B.x3,B.Q0,B.Q2],A.a5("t<ly>"))
-B.Eq=new A.FV(null)
-B.Ei=new A.FE(null)
-B.xR=new A.Dz(null)
-B.Ha=s([B.Eq,B.Ei,B.xR],t.E)
 B.Ab=new A.mr(0,"auto")
 B.Ac=new A.mr(1,"full")
 B.Ad=new A.mr(2,"chromium")
-B.Hb=s([B.Ab,B.Ac,B.Ad,B.bB],A.a5("t<mr>"))
+B.Ha=s([B.Ab,B.Ac,B.Ad,B.bB],A.a5("t<mr>"))
 B.bp=new A.el(1,"fuchsia")
-B.Hd=s([B.al,B.bp,B.ae,B.b1,B.b2,B.b3],A.a5("t<el>"))
+B.Hc=s([B.al,B.bp,B.ae,B.b1,B.b2,B.b3],A.a5("t<el>"))
 B.xs=new A.rF(0,"topLeft")
 B.xv=new A.rF(3,"bottomRight")
 B.UW=new A.kb(B.xs,B.xv)
@@ -77993,7 +77993,7 @@ B.xt=new A.rF(1,"topRight")
 B.xu=new A.rF(2,"bottomLeft")
 B.UX=new A.kb(B.xt,B.xu)
 B.UY=new A.kb(B.xu,B.xt)
-B.He=s([B.UW,B.UZ,B.UX,B.UY],A.a5("t<kb>"))
+B.Hd=s([B.UW,B.UZ,B.UX,B.UY],A.a5("t<kb>"))
 B.Ks=new A.ai(B.M,["0","M13 15C10.7083 21 4.29167 15 2 21","currentColor","1.5","round","round"],t.w)
 B.HX=s(["path",B.Ks],t.b)
 B.Kp=new A.ai(B.M,["1","M15.5 15H17.0013C19.3583 15 20.5368 15 21.2691 14.2678C22.0013 13.5355 22.0013 12.357 22.0013 10V8C22.0013 5.64298 22.0013 4.46447 21.2691 3.73223C20.5368 3 19.3583 3 17.0013 3H13.0013C10.6443 3 9.46576 3 8.73353 3.73223C8.11312 4.35264 8.01838 5.29344 8.00391 7","currentColor","1.5","round","round"],t.w)
@@ -78003,8 +78003,12 @@ B.Kb=new A.ai(B.Lx,["2","7.5","12.5","2.5","currentColor","1.5","round","round"]
 B.Hk=s(["circle",B.Kb],t.b)
 B.KG=new A.ai(B.M,["3","M12 7H18M18 11H15","currentColor","1.5","round","round"],t.w)
 B.Ia=s(["path",B.KG],t.b)
-B.Hf=s([B.HX,B.HU,B.Hk,B.Ia],t.X6)
-B.Hh=s([35,30,20,25,30,35,30,25,25],t.n)
+B.He=s([B.HX,B.HU,B.Hk,B.Ia],t.X6)
+B.Hg=s([35,30,20,25,30,35,30,25,25],t.n)
+B.Ei=new A.FE(null)
+B.Eq=new A.FV(null)
+B.xR=new A.Dz(null)
+B.Hh=s([B.Ei,B.Eq,B.xR],t.E)
 B.KV=new A.ai(B.iT,["0","M2 6L8.91302 9.91697C11.4616 11.361 12.5384 11.361 15.087 9.91697L22 6","currentColor","1.5","round"],t.w)
 B.Ij=s(["path",B.KV],t.b)
 B.KT=new A.ai(B.iT,["1","M2.01577 13.4756C2.08114 16.5412 2.11383 18.0739 3.24496 19.2094C4.37608 20.3448 5.95033 20.3843 9.09883 20.4634C11.0393 20.5122 12.9607 20.5122 14.9012 20.4634C18.0497 20.3843 19.6239 20.3448 20.7551 19.2094C21.8862 18.0739 21.9189 16.5412 21.9842 13.4756C22.0053 12.4899 22.0053 11.5101 21.9842 10.5244C21.9189 7.45886 21.8862 5.92609 20.7551 4.79066C19.6239 3.65523 18.0497 3.61568 14.9012 3.53657C12.9607 3.48781 11.0393 3.48781 9.09882 3.53656C5.95033 3.61566 4.37608 3.65521 3.24495 4.79065C2.11382 5.92608 2.08114 7.45885 2.01576 10.5244C1.99474 11.5101 1.99475 12.4899 2.01577 13.4756Z","currentColor","1.5","round"],t.w)
