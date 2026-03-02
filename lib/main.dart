@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:sh_portfolio/first_tab_screen.dart';
+// import 'package:flutter/services.dart';
+import 'package:sh_portfolio/experience_screen.dart';
 
-import 'package:sh_portfolio/second_tab_screen.dart';
+import 'package:sh_portfolio/education_screen.dart';
 
 import 'package:google_fonts/google_fonts.dart';
 import 'package:sh_portfolio/tab_icons.dart';
-import 'package:sh_portfolio/third_tab_screen.dart';
+import 'package:sh_portfolio/about_screen.dart';
 
 import 'package:logging/logging.dart';
 
@@ -35,14 +35,9 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    // SystemChrome.setApplicationSwitcherDescription(
-    //   ApplicationSwitcherDescription(
-    //     label: title,
-    //     primaryColor: 20, // This line is required
-    //   ),
-    // );
     final TextTheme textTheme = Theme.of(context).textTheme;
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: title,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
@@ -52,20 +47,16 @@ class MyApp extends StatelessWidget {
         length: 3,
         child: Scaffold(
           appBar: AppBar(
-            title: Text(
-              title,
-              style: Theme.of(context).textTheme.headlineLarge,
-            ),
             bottom: const TabBar(
               tabs: [
-                Tab(icon: FirstTabIcon()),
-                Tab(icon: SecondTabIcon()),
-                Tab(icon: ThirdTabIcon()),
+                Tab(icon: ExperienceTabIcon()),
+                Tab(icon: EducationTabIcon()),
+                Tab(icon: ContactTabIcon()),
               ],
             ),
           ),
           body: const TabBarView(
-            children: [FirstTabScreen(), SecondTabScreen(), ThirdTabScreen()],
+            children: [ExperienceScreen(), EducationScreen(), AboutScreen()],
           ),
         ),
       ),

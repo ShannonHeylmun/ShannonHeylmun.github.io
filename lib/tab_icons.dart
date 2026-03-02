@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
 
-class FirstTabIcon extends StatelessWidget {
-  const FirstTabIcon({super.key});
+class ExperienceTabIcon extends StatelessWidget {
+  const ExperienceTabIcon({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -10,8 +10,8 @@ class FirstTabIcon extends StatelessWidget {
   }
 }
 
-class SecondTabIcon extends StatelessWidget {
-  const SecondTabIcon({super.key});
+class EducationTabIcon extends StatelessWidget {
+  const EducationTabIcon({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -19,8 +19,8 @@ class SecondTabIcon extends StatelessWidget {
   }
 }
 
-class ThirdTabIcon extends StatelessWidget {
-  const ThirdTabIcon({super.key});
+class ContactTabIcon extends StatelessWidget {
+  const ContactTabIcon({super.key});
 
   @override
   Widget build(BuildContext context) {

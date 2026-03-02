@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
+import 'package:sh_portfolio/components/work_card.dart';
 import 'package:sh_portfolio/helpers.dart';
 import 'package:sh_portfolio/tab_scaffold.dart';
+import 'package:sh_portfolio/components/work_row.dart';
 
-class FirstTabScreen extends StatelessWidget {
-  const FirstTabScreen({super.key});
+class ExperienceScreen extends StatelessWidget {
+  const ExperienceScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -27,17 +29,17 @@ class FirstTabScreen extends StatelessWidget {
               "https://developer.mozilla.org/en-US/docs/Web/HTML",
               "HTML",
             ),
+            textLink("https://www.ruby-lang.org/en/", "Ruby"),
             textLink("https://sass-lang.com", "SASS"),
             textLink("https://getbootstrap.com", "Bootstrap"),
+            textLink("https://www.python.org/", "Python"),
+            textLink("https://www.latex-project.org/", "LaTeX"),
             textLink("https://m3.material.io", "Material Design"),
             textLink("https://developer.apple.com/design/", "iOS Design"),
             textLink(
               "https://www.interaction-design.org/literature/topics/responsive-design",
               "Responsive Design",
             ),
-            textLink("https://www.latex-project.org/", "LaTeX"),
-            textLink("https://www.python.org/", "Python"),
-            textLink("https://www.ruby-lang.org/en/", "Ruby"),
           ],
         ),
         WorkRow(
@@ -92,47 +94,6 @@ class FirstTabScreen extends StatelessWidget {
           ],
         ),
       ],
-    );
-  }
-}
-
-class WorkRow extends StatelessWidget {
-  final Widget iconWidget;
-  final String text;
-  const WorkRow({super.key, required this.iconWidget, required this.text});
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      spacing: 8,
-      mainAxisSize: MainAxisSize.max,
-      mainAxisAlignment: MainAxisAlignment.center,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: [
-        iconWidget,
-        Text(text, style: Theme.of(context).textTheme.headlineSmall),
-      ],
-    );
-  }
-}
-
-class WorkCard extends StatelessWidget {
-  final List<Widget> children;
-  const WorkCard({super.key, required this.children});
-
-  @override
-  Widget build(BuildContext context) {
-    return Card(
-      margin: const EdgeInsets.all(16.0),
-      child: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Wrap(
-          alignment: WrapAlignment.center,
-          spacing: 8.0,
-          runSpacing: 8,
-          children: children,
-        ),
-      ),
     );
   }
 }
