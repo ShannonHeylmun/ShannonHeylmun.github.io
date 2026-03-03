@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
 
 class TabScaffold extends Scaffold {
-  TabScaffold({required List<Widget> children, super.key})
+  TabScaffold({required List<Widget> children, super.key, double width = 600})
     : super(
         body: SizedBox.expand(
           child: Align(
             alignment: AlignmentGeometry.topCenter,
             child: Container(
-              // padding: EdgeInsets.only(top: 16),
-              constraints: BoxConstraints(maxWidth: 600),
+              padding: EdgeInsets.symmetric(horizontal: 16),
+              constraints: BoxConstraints(maxWidth: width),
               child: SingleChildScrollView(
                 child: Column(
+                  spacing: 16,
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: children.isNotEmpty
                       ? [
@@ -19,6 +20,7 @@ class TabScaffold extends Scaffold {
                             child: children.first,
                           ),
                           ...children.sublist(1),
+                          SizedBox.shrink(),
                         ]
                       : [],
                 ),

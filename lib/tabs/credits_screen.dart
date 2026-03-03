@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:hugeicons/hugeicons.dart';
@@ -14,51 +16,65 @@ class CreditsScreen extends StatelessWidget {
       children: [
         WorkRow(text: "Built with"),
         Card(
-          margin: EdgeInsets.all(16),
-          child: Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              spacing: 16,
-              children: [
-                Wrap(
-                  spacing: 16,
+          margin: EdgeInsets.all(0),
+          child: LayoutBuilder(
+            builder: (BuildContext context, BoxConstraints constraints) {
+              return Padding(
+                padding: EdgeInsets.symmetric(
+                  vertical: 16 + min(constraints.maxWidth / 8, 100),
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  spacing: 32,
                   children: [
-                    SizedIconLink(
-                      link: "https://flutter.dev",
-                      icon: SvgPicture.asset('assets/flutter_icon.svg'),
+                    Row(
+                      spacing: 16,
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        SizedIconLink(
+                          link: "https://flutter.dev",
+                          icon: SvgPicture.asset('assets/flutter_icon.svg'),
+                        ),
+                        SizedIconLink(
+                          link: "https://docs.github.com/en/pages",
+                          icon: HugeIcon(
+                            icon: HugeIcons.strokeRoundedGithub01,
+                            color: Color.fromRGBO(35, 41, 37, 1),
+                          ),
+                        ),
+                        SizedIconLink(
+                          link: "https://inkscape.org",
+                          icon: SvgPicture.asset('assets/inkscape_logo.svg'),
+                        ),
+                        SizedIconLink(
+                          link: "https://www.flaticon.com/free-icons/quotes",
+                          icon: Image(image: AssetImage('assets/quote.png')),
+                        ),
+                      ],
                     ),
-                    SizedIconLink(
-                      link: "https://docs.github.com/en/pages",
-                      icon: HugeIcon(
-                        icon: HugeIcons.strokeRoundedGithub01,
-                        color: Color.fromRGBO(35, 41, 37, 1),
-                      ),
-                    ),
-                    SizedIconLink(
-                      link: "https://inkscape.org",
-                      icon: SvgPicture.asset('assets/inkscape_logo.svg'),
-                    ),
-                    SizedIconLink(
-                      link: "https://www.flaticon.com/free-icons/quotes",
-                      icon: Image(image: AssetImage('assets/quote.png')),
+                    Row(
+                      spacing: 16,
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        textLink(
+                          "https://pub.dev/packages/google_fonts",
+                          "google_fonts",
+                        ),
+                        textLink("https://pub.dev/packages/logging", "logging"),
+                        textLink(
+                          "https://pub.dev/packages/hugeicons",
+                          "hugeicons",
+                        ),
+                        textLink(
+                          "https://pub.dev/packages/flutter_svg",
+                          "flutter_svg",
+                        ),
+                      ],
                     ),
                   ],
                 ),
-                Wrap(
-                  spacing: 16,
-                  runSpacing: 16,
-                  children: [
-                    textLink(
-                      "https://pub.dev/packages/google_fonts",
-                      "Google Fonts",
-                    ),
-                    textLink("https://pub.dev/packages/logging", "Logging"),
-                    textLink("https://pub.dev/packages/hugeicons", "Hugeicons"),
-                  ],
-                ),
-              ],
-            ),
+              );
+            },
           ),
         ),
       ],

@@ -9,6 +9,7 @@ class EducationScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TabScaffold(
+      width: 500,
       children: [
         WorkRow(iconWidget: null, text: 'Education'),
         EducationCard(

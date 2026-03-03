@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sh_portfolio/components/profile_pic.dart';
+import 'package:sh_portfolio/components/portfolio_card.dart';
 import 'package:sh_portfolio/components/tab_scaffold.dart';
 
 class PortfolioScreen extends StatelessWidget {
@@ -13,67 +13,22 @@ class PortfolioScreen extends StatelessWidget {
           name: "Cloud Appreciation Society",
           subtitle: "Flutter, iOS, Android, Angular, Firebase",
         ),
-      ],
-    );
-  }
-}
 
-class PortfolioCard extends StatelessWidget {
-  final String name;
-  final String? subtitle;
-
-  final String? body;
-  const PortfolioCard({
-    super.key,
-    required this.name,
-    this.subtitle,
-    this.body,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Card(
-      margin: EdgeInsets.all(16),
-      child: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          spacing: 16,
-          children: [
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              spacing: 16,
-              children: [
-                AppIconImage(assetImage: 'assets/cas.jpeg'),
-                Flexible(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        name,
-                        style: Theme.of(context).textTheme.headlineSmall,
-                      ),
-                      Text(
-                        subtitle ?? "Subtitle",
-                        softWrap: true,
-                        style: Theme.of(context).textTheme.bodyMedium,
-                      ),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-            Flexible(
-              flex: 0,
-              child: Text(
-                body ??
-                    "I was the lead full-stack engineer responsible for the International Cloud Appreciation Society's iOS and Android stack beginning in 2017. Their front end consisted of iOS and Android apps developed primarily with Flutter. We handled tabbed navigation using bloc, auth, photography and image storage, interactive widgets, and numerous api calls. \nWe developed the CMS dashboard with Angular.\nThe back end utilized Firebase Storage and Auth, Cloud Firestore, and Cloud Functions. We ",
-                textAlign: TextAlign.justify,
-              ),
-            ),
-          ],
+        PortfolioCard(
+          name: "KTArtistryPaints.com",
+          subtitle: "Angular Web Storefront and Website",
+          assetImage: 'assets/KT_artistry.png',
+          body:
+              "When Kaitlyn Embury commissioned an overhaul of her first website in 2016, I strove to create a beautiful, dynamic,responsive, storefront which preserved the look and feel of the origin while modernizing the underlying technology and design paradigm. The result was an Angular2 website with a responsive art gallery wall, integrated Google map location information, and a built-in CMS dashboard",
         ),
-      ),
+        PortfolioCard(
+          name: "BenRussoMath.com",
+          subtitle: "Vanilla HTML5 with Bootstrap",
+          assetImage: 'assets/ben.png',
+          body:
+              "Upon receiving his Doctorate from the University of Florida, Ben Russo requested a portfolio/CV website. ",
+        ),
+      ],
     );
   }
 }
