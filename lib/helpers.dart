@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'main.dart';
-
 Future<void> launchURL(String url, {bool isNewTab = true}) async {
   Uri url0 = Uri.parse(url);
   if (!await launchUrl(
@@ -22,9 +20,9 @@ Future<void> launchEmail(String email) async {
   }
 }
 
-Widget textLink(String url, String text) {
+Widget textLink(String url, String text, {Color color = Colors.blue}) {
   return InkWell(
-    child: Text(text, style: TextStyle(color: Colors.blue)),
+    child: Text(text, style: TextStyle(color: color)),
     onTap: () => launchURL(url),
   );
 }

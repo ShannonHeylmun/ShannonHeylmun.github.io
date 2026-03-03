@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
+import 'package:sh_portfolio/components/profile_pic.dart';
 import 'package:sh_portfolio/helpers.dart';
-import 'package:sh_portfolio/tab_scaffold.dart';
+import 'package:sh_portfolio/components/tab_scaffold.dart';
 
 class AboutScreen extends StatelessWidget {
   const AboutScreen({super.key});
@@ -56,22 +57,6 @@ class AboutScreen extends StatelessWidget {
           ),
         ),
       ],
-    );
-  }
-}
-
-class ProfilePic extends StatelessWidget {
-  const ProfilePic({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: 100,
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(20),
-        image: DecorationImage(image: AssetImage('assets/sh_profile.jpeg')),
-      ),
-      child: AspectRatio(aspectRatio: 1),
     );
   }
 }

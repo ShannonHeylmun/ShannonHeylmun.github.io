@@ -10,6 +10,15 @@ class ExperienceTabIcon extends StatelessWidget {
   }
 }
 
+class PortfolioTabIcon extends StatelessWidget {
+  const PortfolioTabIcon({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const HugeIcon(icon: HugeIcons.strokeRoundedPresentationLineChart01);
+  }
+}
+
 class EducationTabIcon extends StatelessWidget {
   const EducationTabIcon({super.key});
 
@@ -25,5 +34,14 @@ class ContactTabIcon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const HugeIcon(icon: HugeIcons.strokeRoundedContact);
+  }
+}
+
+class CreditsTabIcon extends StatelessWidget {
+  const CreditsTabIcon({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const HugeIcon(icon: HugeIcons.strokeRoundedLaurelWreath01);
   }
 }

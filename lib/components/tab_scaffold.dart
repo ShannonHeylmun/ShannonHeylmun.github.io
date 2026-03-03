@@ -11,13 +11,16 @@ class TabScaffold extends Scaffold {
               constraints: BoxConstraints(maxWidth: 600),
               child: SingleChildScrollView(
                 child: Column(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(top: 16.0),
-                      child: children.first,
-                    ),
-                    ...children.sublist(1),
-                  ],
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: children.isNotEmpty
+                      ? [
+                          Padding(
+                            padding: const EdgeInsets.only(top: 16.0),
+                            child: children.first,
+                          ),
+                          ...children.sublist(1),
+                        ]
+                      : [],
                 ),
               ),
             ),
