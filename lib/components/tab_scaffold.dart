@@ -12,7 +12,7 @@ class TabScaffold extends Scaffold {
               child: SingleChildScrollView(
                 child: Column(
                   spacing: 16,
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: children.isNotEmpty
                       ? [
                           Padding(

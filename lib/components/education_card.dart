@@ -16,42 +16,41 @@ class EducationCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Flexible(
-      flex: 0,
-      child: Card(
-        margin: const EdgeInsets.all(0.0),
-        child: Padding(
-          padding: const EdgeInsets.all(16.0),
-          child: IntrinsicHeight(
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                AspectRatio(
-                  aspectRatio: 1.0,
-                  child: FittedBox(
-                    fit: BoxFit.cover,
-                    child: RotatedBox(
-                      quarterTurns: 3,
-                      child: Row(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        mainAxisSize: MainAxisSize.min,
-                        children: [Text("'$year")],
-                      ),
+    return Card(
+      margin: const EdgeInsets.all(0.0),
+      child: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: IntrinsicHeight(
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              AspectRatio(
+                aspectRatio: 1.0,
+                child: FittedBox(
+                  fit: BoxFit.cover,
+                  child: RotatedBox(
+                    quarterTurns: 3,
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisSize: MainAxisSize.min,
+                      children: [Text("'$year")],
                     ),
                   ),
                 ),
-                Column(
-                  children: [
-                    Text(
-                      school,
-                      style: Theme.of(context).textTheme.headlineMedium,
-                    ),
-                    Text(degree, style: Theme.of(context).textTheme.bodyMedium),
-                  ],
-                ),
-              ],
-            ),
+              ),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    school,
+                    style: Theme.of(context).textTheme.headlineMedium,
+                  ),
+                  Text(degree, style: Theme.of(context).textTheme.bodyMedium),
+                ],
+              ),
+            ],
           ),
         ),
       ),

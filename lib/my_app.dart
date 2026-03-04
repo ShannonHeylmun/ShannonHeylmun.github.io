@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         textTheme: GoogleFonts.asapTextTheme(textTheme),
       ),
       home: DefaultTabController(
-        initialIndex: 2,
+        initialIndex: (TABS.length / 2).floor(),
         length: TABS.length,
         child: Scaffold(
           appBar: AppBar(
