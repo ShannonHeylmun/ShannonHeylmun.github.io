@@ -32,6 +32,7 @@ class ExperienceScreen extends StatelessWidget {
             textLink("https://www.ruby-lang.org/en/", "Ruby"),
             textLink("https://sass-lang.com", "SASS"),
             textLink("https://getbootstrap.com", "Bootstrap"),
+            textLink("tailwindcss.com/", "tailwindcss"),
             textLink("https://www.python.org/", "Python"),
             textLink("https://www.latex-project.org/", "LaTeX"),
             textLink("https://m3.material.io", "Material Design"),
