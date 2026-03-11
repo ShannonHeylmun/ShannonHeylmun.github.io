@@ -16,10 +16,9 @@ class PortfolioScreen extends StatelessWidget {
               "the Cloud-a-Day App's logo. In the style of decoupage, a figure in a red dress and leggings holds the hand of a smaller figure in brown pants and a grey-green shirt and points at the sky. They are standing on rolling green hills, and in the background four nimbostratus clouds block the sun from view as crepuscular rays radiate down from behind the largest onto an ocean nearly the same shade of blue as the sky.",
           assetImage: 'assets/cas.jpeg',
         ),
-
         PortfolioCard(
           name: "KTArtistryPaints.com",
-          subtitle: "Angular Web Storefront and Website",
+          subtitle: "Angular Web Storefront and Dashboard",
           assetImage: 'assets/KT_artistry.png',
           semanticLabel:
               "KT Artistry's logo, an irregular, elegant design consisting of daubs of pink, purple, and grey paint as the background. The foreground consists of two golden hoops with the letters 'kt' in a large calligraphic font at the center and 'KAITLYN T. EMBURY-LAMM ARTISTRY LLC' smaller, around the perimeter.",
