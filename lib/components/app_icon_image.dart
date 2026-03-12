@@ -7,16 +7,16 @@ class AppIconImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Semantics(
-      label: "An iOS-style 'icon' containing $semanticLabel",
-      readOnly: true,
-      container: true,
-      child: Container(
-        height: 100,
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(20),
-          image: DecorationImage(image: AssetImage(assetImage)),
-        ),
+    return Container(
+      height: 100,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(20),
+        image: DecorationImage(image: AssetImage(assetImage)),
+      ),
+      child: Semantics(
+        label: "An iOS-style 'icon' containing $semanticLabel",
+        readOnly: true,
+        container: true,
         child: AspectRatio(
           aspectRatio: 1,
           child: SizedBox(width: 100, height: 100),
