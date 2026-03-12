@@ -34,13 +34,14 @@ class AboutScreen extends StatelessWidget {
                     spacing: 16,
                     runSpacing: 16,
                     children: [
-                      iconLink(
-                        'https://www.linkedin.com/in/shannon-heylmun-1b98a747',
-                        HugeIcon(icon: HugeIcons.strokeRoundedLinkedin01),
+                      IconLink(
+                        url:
+                            'https://www.linkedin.com/in/shannon-heylmun-1b98a747',
+                        icon: HugeIcon(icon: HugeIcons.strokeRoundedLinkedin01),
                       ),
-                      iconLink(
-                        "https://github.com/ShannonHeylmun",
-                        HugeIcon(icon: HugeIcons.strokeRoundedGithub),
+                      IconLink(
+                        url: "https://github.com/ShannonHeylmun",
+                        icon: HugeIcon(icon: HugeIcons.strokeRoundedGithub),
                       ),
                       GestureDetector(
                         child: HugeIcon(icon: HugeIcons.strokeRoundedMail01),

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:hugeicons/hugeicons.dart';
+import 'package:sh_portfolio/helpers.dart';
 import 'package:sh_portfolio/tabs/tabs.dart';
 
 class MyApp extends StatelessWidget {
@@ -10,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final TextTheme textTheme = Theme.of(context).textTheme;
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: title,

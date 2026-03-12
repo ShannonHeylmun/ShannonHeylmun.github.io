@@ -18,28 +18,87 @@ class ExperienceScreen extends StatelessWidget {
         ),
         WorkCard(
           children: [
-            textLink("https://flutter.dev/", "Flutter"),
-            textLink("https://dart.dev/", "Dart"),
-            textLink("https://git-scm.com/", "Git"),
-            textLink("https://angular.dev", "Angular"),
-            textLink("https://firebase.google.com", "Firebase"),
-            textLink("https://aws.amazon.com", "AWS"),
-            textLink("https://www.typescriptlang.org/", "Typescript"),
-            textLink(
-              "https://developer.mozilla.org/en-US/docs/Web/HTML",
-              "HTML",
+            TextLink(
+              url: "https://flutter.dev/",
+              text: "Flutter",
+              context: context,
             ),
-            textLink("https://www.ruby-lang.org/en/", "Ruby"),
-            textLink("https://sass-lang.com", "SASS"),
-            textLink("https://getbootstrap.com", "Bootstrap"),
-            textLink("tailwindcss.com/", "tailwindcss"),
-            textLink("https://www.python.org/", "Python"),
-            textLink("https://www.latex-project.org/", "LaTeX"),
-            textLink("https://m3.material.io", "Material Design"),
-            textLink("https://developer.apple.com/design/", "iOS Design"),
-            textLink(
-              "https://www.interaction-design.org/literature/topics/responsive-design",
-              "Responsive Design",
+            TextLink(url: "https://dart.dev/", text: "Dart", context: context),
+            TextLink(
+              url: "https://git-scm.com/",
+              text: "Git",
+              context: context,
+            ),
+            TextLink(
+              url: "https://angular.dev",
+              text: "Angular",
+              context: context,
+            ),
+            TextLink(
+              url: "https://firebase.google.com",
+              text: "Firebase",
+              context: context,
+            ),
+            TextLink(
+              url: "https://aws.amazon.com",
+              text: "AWS",
+              context: context,
+            ),
+            TextLink(
+              url: "https://www.typescriptlang.org/",
+              text: "Typescript",
+              context: context,
+            ),
+            TextLink(
+              url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+              text: "HTML",
+              context: context,
+            ),
+            TextLink(
+              url: "https://www.ruby-lang.org/en/",
+              text: "Ruby",
+              context: context,
+            ),
+            TextLink(
+              url: "https://sass-lang.com",
+              text: "SASS",
+              context: context,
+            ),
+            TextLink(
+              url: "https://getbootstrap.com",
+              text: "Bootstrap",
+              context: context,
+            ),
+            TextLink(
+              url: "tailwindcss.com/",
+              text: "tailwindcss",
+              context: context,
+            ),
+            TextLink(
+              url: "https://www.python.org/",
+              text: "Python",
+              context: context,
+            ),
+            TextLink(
+              url: "https://www.latex-project.org/",
+              text: "LaTeX",
+              context: context,
+            ),
+            TextLink(
+              url: "https://m3.material.io",
+              text: "Material Design",
+              context: context,
+            ),
+            TextLink(
+              url: "https://developer.apple.com/design/",
+              context: context,
+              text: "iOS Design",
+            ),
+            TextLink(
+              url:
+                  "https://www.interaction-design.org/literature/topics/responsive-design",
+              text: "Responsive Design",
+              context: context,
             ),
           ],
         ),
@@ -49,13 +108,16 @@ class ExperienceScreen extends StatelessWidget {
         ),
         WorkCard(
           children: [
-            textLink(
-              "https://bokcenter.harvard.edu/flipped-classrooms",
-              "Flipped Classroom",
+            TextLink(
+              url: "https://bokcenter.harvard.edu/flipped-classrooms",
+              text: "Flipped Classroom",
+              context: context,
             ),
-            textLink(
-              "https://www.wise.live/blog/what-is-the-socratic-method-of-teaching/",
-              "Socratic Tutoring",
+            TextLink(
+              url:
+                  "https://www.wise.live/blog/what-is-the-socratic-method-of-teaching/",
+              text: "Socratic Tutoring",
+              context: context,
             ),
             Text("Elementary Algebra"),
             Text("Geometry"),
@@ -79,9 +141,10 @@ class ExperienceScreen extends StatelessWidget {
         ),
         WorkCard(
           children: [
-            textLink(
-              "https://projecteuler.net/progress=s_heylmun",
-              "Project Euler",
+            TextLink(
+              url: "https://projecteuler.net/progress=s_heylmun",
+              text: "Project Euler",
+              context: context,
             ),
             Text("Mechanical Drafting"),
             Text("3D-printing"),
