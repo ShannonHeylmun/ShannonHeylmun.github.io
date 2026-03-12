@@ -12,7 +12,7 @@ class WorkCard extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         child: Wrap(
           alignment: WrapAlignment.center,
-          spacing: 8.0,
+          spacing: 16.0,
           runSpacing: 8,
           children: children,
         ),
