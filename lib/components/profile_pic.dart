@@ -10,7 +10,7 @@ class ProfilePic extends StatelessWidget {
       child: AppIconImage(
         assetImage: 'assets/sh_profile.jpeg',
         semanticLabel:
-            "a black and white portrait of a white woman with long hair and bangs. She is wearing a dark, collared shirt and a necklace.",
+            "a black and white portrait of a white woman with long hair and bangs in front of still water. She is wearing a dark, collared shirt and a necklace.",
       ),
     );
   }
