@@ -5,7 +5,7 @@ class TabScaffold extends Scaffold {
     : super(
         body: SizedBox.expand(
           child: Align(
-            alignment: AlignmentGeometry.topCenter,
+            alignment: AlignmentGeometry.xy(0, -.8),
             child: Container(
               padding: EdgeInsets.symmetric(horizontal: 16),
               constraints: BoxConstraints(maxWidth: width),
