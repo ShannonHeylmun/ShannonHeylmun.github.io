@@ -5,7 +5,7 @@ set -e
 BUILD_DIRECTORY="build/web"
 DEPLOY_DIRECTORY="docs"
 COMMIT_MESSAGE="Deploy On Pages"
-BASE_HREF="ShannonHeylmun.github.io"
+BASE_HREF="/sh_portfolio/"
 
 build_flutter_web() {
 echo "Building Web application..."
