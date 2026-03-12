@@ -5,14 +5,17 @@ class PortfolioCard extends StatelessWidget {
   final String name;
   final String? subtitle;
 
-  final String? assetImage;
+  final String assetImage;
   final String? body;
+
+  final String? semanticLabel;
   const PortfolioCard({
     super.key,
     required this.name,
     this.subtitle,
-    this.assetImage,
+    required this.assetImage,
     this.body,
+    this.semanticLabel,
   });
 
   @override
@@ -29,7 +32,10 @@ class PortfolioCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               spacing: 16,
               children: [
-                AppIconImage(assetImage: assetImage ?? 'assets/cas.jpeg'),
+                AppIconImage(
+                  assetImage: assetImage,
+                  semanticLabel: semanticLabel ?? "",
+                ),
                 Flexible(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,

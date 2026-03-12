@@ -6,6 +6,12 @@ class ProfilePic extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(child: AppIconImage());
+    return Center(
+      child: AppIconImage(
+        assetImage: 'assets/sh_profile.jpeg',
+        semanticLabel:
+            "a black and white portrait of a white woman with long hair and bangs. She is wearing a dark, collared shirt and a necklace.",
+      ),
+    );
   }
 }
