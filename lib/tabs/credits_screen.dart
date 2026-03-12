@@ -16,12 +16,13 @@ class CreditsScreen extends StatelessWidget {
       children: [
         WorkRow(text: "Built with"),
         Card(
-          margin: EdgeInsets.all(0),
           child: LayoutBuilder(
             builder: (BuildContext context, BoxConstraints constraints) {
               return Padding(
                 padding: EdgeInsets.symmetric(
-                  vertical: 16 + min(constraints.maxWidth / 8, 100),
+                  vertical:
+                      16 + min(constraints.maxWidth, constraints.maxHeight) / 8,
+                  horizontal: 16,
                 ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
@@ -56,18 +57,25 @@ class CreditsScreen extends StatelessWidget {
                       spacing: 16,
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        textLink(
-                          "https://pub.dev/packages/google_fonts",
-                          "google_fonts",
+                        TextLink(
+                          url: "https://pub.dev/packages/google_fonts",
+                          text: "google_fonts",
+                          context: context,
                         ),
-                        textLink("https://pub.dev/packages/logging", "logging"),
-                        textLink(
-                          "https://pub.dev/packages/hugeicons",
-                          "hugeicons",
+                        TextLink(
+                          url: "https://pub.dev/packages/logging",
+                          text: "logging",
+                          context: context,
                         ),
-                        textLink(
-                          "https://pub.dev/packages/flutter_svg",
-                          "flutter_svg",
+                        TextLink(
+                          url: "https://pub.dev/packages/hugeicons",
+                          text: "hugeicons",
+                          context: context,
+                        ),
+                        TextLink(
+                          url: "https://pub.dev/packages/flutter_svg",
+                          text: "flutter_svg",
+                          context: context,
                         ),
                       ],
                     ),
@@ -97,6 +105,10 @@ class SizedIconLink extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(width: 64, height: 64, child: iconLink(link, icon));
+    return SizedBox(
+      width: 64,
+      height: 64,
+      child: IconLink(url: link, icon: icon),
+    );
   }
 }

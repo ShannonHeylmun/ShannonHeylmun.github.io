@@ -42,10 +42,17 @@
 
 	<!-- PWA Manifest -->
 	<link rel="manifest" href="icons/manifest.json">
-	<meta name="theme-color" content="#6200EA">
+	<!-- <meta name="theme-color" content="#6200EA"> -->
 
 	<title>Shannon Heylmun</title>
-	<link rel="manifest" href="manifest.json">
+
+	<script>
+		if ( 'serviceWorker' in navigator ) {
+			window.addEventListener( 'flutter-first-frame', function () {
+				navigator.serviceWorker.register( 'flutter_service_worker.js' );
+			} );
+		}
+	</script>
 </head>
 
 <body>
@@ -64,14 +71,6 @@
 		* https://docs.flutter.dev/platform-integration/web/initialization
 	-->
 	<script src="flutter_bootstrap.js" async></script>
-
-	<script>
-		if ( 'serviceWorker' in navigator ) {
-			window.addEventListener( 'flutter-first-frame', function () {
-				navigator.serviceWorker.register( 'flutter_service_worker.js' );
-			} );
-		}
-	</script>
 
 </body>
 

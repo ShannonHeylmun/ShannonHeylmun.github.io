@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 Future<void> launchURL(String url, {bool isNewTab = true}) async {
@@ -20,15 +21,50 @@ Future<void> launchEmail(String email) async {
   }
 }
 
-Widget textLink(String url, String text, {Color color = Colors.blue}) {
-  return InkWell(
-    child: Text(text, style: TextStyle(color: color)),
-    onTap: () => launchURL(url),
-  );
+class TextLink extends StatelessWidget {
+  final String url;
+  final String text;
+  final Color? color;
+  final BuildContext context;
+
+  const TextLink({
+    super.key,
+    required this.context,
+    required this.url,
+    required this.text,
+    this.color = Colors.blue,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: () => launchURL(url),
+      onLongPress: () {
+        Clipboard.setData(ClipboardData(text: url));
+      },
+      enableFeedback: true,
+      borderRadius: BorderRadius.all(Radius.circular(8)),
+      child: Text(text, style: TextStyle(color: color)),
+    );
+  }
 }
 
-Widget iconLink(String url, Widget icon) {
-  return InkWell(child: icon, onTap: () => launchURL(url));
+class IconLink extends StatelessWidget {
+  final String url;
+  final Widget icon;
+  const IconLink({super.key, required this.url, required this.icon});
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: () => launchURL(url),
+      onLongPress: () {
+        Clipboard.setData(ClipboardData(text: url));
+      },
+      borderRadius: BorderRadius.all(Radius.circular(8)),
+      child: icon,
+    );
+  }
 }
 
 int extendedFibonacci(int n) {

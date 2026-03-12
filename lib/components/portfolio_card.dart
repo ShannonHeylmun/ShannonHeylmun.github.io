@@ -10,7 +10,7 @@ class PortfolioCard extends StatelessWidget {
   );
 
   final String assetImage;
-  final String? body;
+  final String body;
 
   final String? semanticLabel;
   PortfolioCard({
@@ -18,7 +18,7 @@ class PortfolioCard extends StatelessWidget {
     required this.name,
     this.subtitle,
     required this.assetImage,
-    this.body,
+    required this.body,
     required this.semanticLabel,
   });
 
@@ -30,23 +30,28 @@ class PortfolioCard extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         child: ExpandablePanel(
           controller: expandableController,
-          theme: ExpandableThemeData(hasIcon: true),
+          theme: ExpandableThemeData(
+            hasIcon: false,
+            inkWellBorderRadius: BorderRadius.circular(16),
+          ),
           collapsed: SizedBox.shrink(),
           header: Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
             spacing: 16,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               AppIconImage(assetImage: assetImage),
               Flexible(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  mainAxisSize: MainAxisSize.max,
                   children: [
                     Text(
                       name,
                       style: Theme.of(context).textTheme.headlineSmall,
                     ),
                     Text(
-                      subtitle ?? "Subtitle",
+                      subtitle ?? "",
                       softWrap: true,
                       style: Theme.of(context).textTheme.bodyMedium,
                     ),
@@ -55,19 +60,9 @@ class PortfolioCard extends StatelessWidget {
               ),
             ],
           ),
-          expanded: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            spacing: 16,
-            children: [
-              Flexible(
-                flex: 0,
-                child: Text(
-                  body ??
-                      "Cloud-a-Day is an AI-enabled, community reference app for the identification and sharing of images of more than forty types of atmospheric phenomena.\n I was the lead full-stack engineer responsible for the International Cloud Appreciation Society's iOS and Android stack beginning in 2017. Their front end consisted of iOS and Android apps developed primarily with Flutter. We handled tabbed navigation using bloc, auth, photography and image storage, interactive widgets, and numerous API calls. \nWe developed the CMS dashboard with Angular.\nThe back end utilized Firebase Storage and Auth, Cloud Firestore, and Cloud Functions.",
-                  textAlign: TextAlign.justify,
-                ),
-              ),
-            ],
+          expanded: Padding(
+            padding: const EdgeInsets.only(top: 16.0),
+            child: Text(body, textAlign: TextAlign.justify),
           ),
         ),
       ),
