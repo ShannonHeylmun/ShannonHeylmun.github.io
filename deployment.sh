@@ -13,7 +13,6 @@ echo "Building Web application..."
     rm -rf "$BUILD_DIRECTORY"
     
     if ! flutter build web \
-        --base-href=$BASE_HREF \
         --release; then
         echo "Flutter build failed"
         exit 1
