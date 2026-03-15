@@ -62,7 +62,11 @@ class PortfolioCard extends StatelessWidget {
           ),
           expanded: Padding(
             padding: const EdgeInsets.only(top: 16.0),
-            child: Text(body, textAlign: TextAlign.justify),
+            child: Text(
+              body,
+              textAlign: TextAlign.justify,
+              style: Theme.of(context).textTheme.bodyLarge,
+            ),
           ),
         ),
       ),

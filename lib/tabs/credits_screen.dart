@@ -28,11 +28,9 @@ class CreditsScreen extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Row(mainAxisSize: MainAxisSize.max),
-                    ExtendedWrap(
+                    Wrap(
                       spacing: 16,
                       runSpacing: 16,
-                      childSizeInDirection: 64,
                       children: [
                         SizedIconLink(
                           link: "https://flutter.dev",
@@ -49,10 +47,10 @@ class CreditsScreen extends StatelessWidget {
                           link: "https://inkscape.org",
                           icon: SvgPicture.asset('assets/inkscape_logo.svg'),
                         ),
-                        SizedIconLink(
-                          link: "https://www.flaticon.com/free-icons/quotes",
-                          icon: Image(image: AssetImage('assets/quote.png')),
-                        ),
+                        // SizedIconLink(
+                        //   link: "https://www.flaticon.com/free-icons/quotes",
+                        //   icon: Image(image: AssetImage('assets/quote.png')),
+                        // ),
                       ],
                     ),
                     Wrap(

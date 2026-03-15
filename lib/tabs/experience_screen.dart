@@ -108,18 +108,6 @@ class ExperienceScreen extends StatelessWidget {
         ),
         WorkCard(
           children: [
-            TextLink(
-              url:
-                  "https://teaching.cornell.edu/teaching-resources/active-collaborative-learning/flipping-classroom",
-              text: "Flipped Classroom",
-              context: context,
-            ),
-            TextLink(
-              url:
-                  "https://www.wise.live/blog/what-is-the-socratic-method-of-teaching/",
-              text: "Socratic Tutoring",
-              context: context,
-            ),
             PaddedText("Elementary Algebra"),
             PaddedText("Geometry"),
             PaddedText("Trigonometry"),
@@ -131,7 +119,8 @@ class ExperienceScreen extends StatelessWidget {
             PaddedText("Probability"),
             PaddedText("Number Theory"),
             PaddedText("Combinatorics"),
-            PaddedText("Sets & Logic"),
+            PaddedText("Set Theory"),
+            PaddedText("Formal Logic"),
             PaddedText("Elementary Graph Theory"),
             PaddedText("Voting Theory"),
           ],
@@ -142,6 +131,18 @@ class ExperienceScreen extends StatelessWidget {
         ),
         WorkCard(
           children: [
+            TextLink(
+              url:
+                  "https://teaching.cornell.edu/teaching-resources/active-collaborative-learning/flipping-classroom",
+              text: "Flipped Teaching",
+              context: context,
+            ),
+            TextLink(
+              url:
+                  "https://www.wise.live/blog/what-is-the-socratic-method-of-teaching/",
+              text: "Socratic Tutoring",
+              context: context,
+            ),
             TextLink(
               url: "https://projecteuler.net/progress=s_heylmun",
               text: "Project Euler",

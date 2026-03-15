@@ -1,3 +1,5 @@
+import 'dart:math' as math;
+
 import 'package:flutter/material.dart';
 
 class EducationCard extends StatelessWidget {
@@ -23,19 +25,21 @@ class EducationCard extends StatelessWidget {
         child: IntrinsicHeight(
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisAlignment: MainAxisAlignment.center,
             mainAxisSize: MainAxisSize.min,
             children: [
               AspectRatio(
                 aspectRatio: 1.0,
                 child: FittedBox(
                   fit: BoxFit.cover,
-                  child: RotatedBox(
-                    quarterTurns: 3,
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisSize: MainAxisSize.min,
-                      children: [Text("'$year")],
+                  child: Transform.translate(
+                    offset: const Offset(0, 3),
+                    child: Transform.rotate(
+                      angle: -math.pi / 2,
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisSize: MainAxisSize.min,
+                        children: [Text("'$year")],
+                      ),
                     ),
                   ),
                 ),
