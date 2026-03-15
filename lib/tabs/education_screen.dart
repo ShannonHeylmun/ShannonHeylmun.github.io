@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sh_portfolio/components/education_card.dart';
-import 'package:sh_portfolio/components/work_row.dart';
-import 'package:sh_portfolio/components/tab_scaffold.dart';
+import 'package:ShannonHeylmun.github.io/components/education_card.dart';
+import 'package:ShannonHeylmun.github.io/components/work_row.dart';
+import 'package:ShannonHeylmun.github.io/components/tab_scaffold.dart';
 
 class EducationScreen extends StatelessWidget {
   const EducationScreen({super.key});

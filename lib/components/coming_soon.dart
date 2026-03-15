@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sh_portfolio/components/tab_scaffold.dart';
+import 'package:ShannonHeylmun.github.io/components/tab_scaffold.dart';
 
 class ComingSoon extends StatelessWidget {
   final String title;

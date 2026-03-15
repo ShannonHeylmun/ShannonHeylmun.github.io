@@ -2,7 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:sh_portfolio/tabs/tabs.dart';
+import 'package:ShannonHeylmun.github.io/tabs/tabs.dart';
 
 class MyApp extends StatelessWidget {
   final String title = "Shannon Heylmun";

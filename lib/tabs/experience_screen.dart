@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
-import 'package:sh_portfolio/components/work_card.dart';
-import 'package:sh_portfolio/helpers.dart';
-import 'package:sh_portfolio/components/tab_scaffold.dart';
-import 'package:sh_portfolio/components/work_row.dart';
+import 'package:ShannonHeylmun.github.io/components/work_card.dart';
+import 'package:ShannonHeylmun.github.io/helpers.dart';
+import 'package:ShannonHeylmun.github.io/components/tab_scaffold.dart';
+import 'package:ShannonHeylmun.github.io/components/work_row.dart';
 
 class ExperienceScreen extends StatelessWidget {
   const ExperienceScreen({super.key});

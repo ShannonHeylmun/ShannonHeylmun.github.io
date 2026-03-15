@@ -1,4 +1,4 @@
-# sh_portfolio
+# ShannonHeylmun.github.io
 
 My portfolio written with Flutter
 

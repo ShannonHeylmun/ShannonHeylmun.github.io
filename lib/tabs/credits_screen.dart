@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_extended_wrap/flutter_extended_wrap.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:hugeicons/hugeicons.dart';
-import 'package:sh_portfolio/components/tab_scaffold.dart';
-import 'package:sh_portfolio/components/work_row.dart';
-import 'package:sh_portfolio/helpers.dart';
+import 'package:ShannonHeylmun.github.io/components/tab_scaffold.dart';
+import 'package:ShannonHeylmun.github.io/components/work_row.dart';
+import 'package:ShannonHeylmun.github.io/helpers.dart';
 
 class CreditsScreen extends StatelessWidget {
   const CreditsScreen({super.key});
@@ -75,6 +75,16 @@ class CreditsScreen extends StatelessWidget {
                           url: "https://pub.dev/packages/flutter_svg",
                           text: "flutter_svg",
                           context: context,
+                        ),
+                        TextLink(
+                          context: context,
+                          url: "https://pub.dev/packages/prevent_orphan_text",
+                          text: "prevent_orphan_text",
+                        ),
+                        TextLink(
+                          context: context,
+                          url: "https://pub.dev/packages/expandable",
+                          text: "expandable",
                         ),
                       ],
                     ),

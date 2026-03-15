@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 // import 'package:flutter/services.dart';
-import 'package:sh_portfolio/my_app.dart';
+import 'package:ShannonHeylmun.github.io/my_app.dart';
 import 'package:flutter/semantics.dart';
 
 import 'package:logging/logging.dart';

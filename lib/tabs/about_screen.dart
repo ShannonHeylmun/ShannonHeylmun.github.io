@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
 import 'package:prevent_orphan_text/prevent_orphan_text.dart';
-import 'package:sh_portfolio/components/profile_pic.dart';
-import 'package:sh_portfolio/helpers.dart';
-import 'package:sh_portfolio/components/tab_scaffold.dart';
+import 'package:ShannonHeylmun.github.io/components/profile_pic.dart';
+import 'package:ShannonHeylmun.github.io/helpers.dart';
+import 'package:ShannonHeylmun.github.io/components/tab_scaffold.dart';
 
 class AboutScreen extends StatelessWidget {
   const AboutScreen({super.key});

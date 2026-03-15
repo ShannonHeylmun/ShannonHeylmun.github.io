@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sh_portfolio/components/portfolio_card.dart';
-import 'package:sh_portfolio/components/tab_scaffold.dart';
+import 'package:ShannonHeylmun.github.io/components/portfolio_card.dart';
+import 'package:ShannonHeylmun.github.io/components/tab_scaffold.dart';
 
 class PortfolioScreen extends StatelessWidget {
   const PortfolioScreen({super.key});

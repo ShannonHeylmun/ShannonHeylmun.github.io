@@ -1,11 +1,11 @@
-// import 'package:sh_portfolio/components/coming_soon.dart';
-import 'package:sh_portfolio/components/coming_soon.dart';
-import 'package:sh_portfolio/tabs/tab_icons.dart';
-import 'package:sh_portfolio/tabs/about_screen.dart';
-import 'package:sh_portfolio/tabs/credits_screen.dart';
-import 'package:sh_portfolio/tabs/education_screen.dart';
-import 'package:sh_portfolio/tabs/experience_screen.dart';
-import 'package:sh_portfolio/tabs/portfolio_screen.dart';
+// import 'package:ShannonHeylmun.github.io/components/coming_soon.dart';
+import 'package:ShannonHeylmun.github.io/components/coming_soon.dart';
+import 'package:ShannonHeylmun.github.io/tabs/tab_icons.dart';
+import 'package:ShannonHeylmun.github.io/tabs/about_screen.dart';
+import 'package:ShannonHeylmun.github.io/tabs/credits_screen.dart';
+import 'package:ShannonHeylmun.github.io/tabs/education_screen.dart';
+import 'package:ShannonHeylmun.github.io/tabs/experience_screen.dart';
+import 'package:ShannonHeylmun.github.io/tabs/portfolio_screen.dart';
 
 const TABS = [
   EducationTabIcon(),

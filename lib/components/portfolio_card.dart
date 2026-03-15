@@ -1,6 +1,6 @@
 import 'package:expandable/expandable.dart';
 import 'package:flutter/material.dart';
-import 'package:sh_portfolio/components/app_icon_image.dart';
+import 'package:ShannonHeylmun.github.io/components/app_icon_image.dart';
 
 class PortfolioCard extends StatelessWidget {
   final String name;
