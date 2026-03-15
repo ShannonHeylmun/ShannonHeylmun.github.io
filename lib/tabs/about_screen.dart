@@ -51,7 +51,7 @@ class AboutScreen extends StatelessWidget {
                   ),
                 ),
                 PreventOrphanText(
-                  "I have been a full stack mobile and web developer for close to a decade. I began developing software when I was still pursuing a career in teaching mathematics. I have always believed that technology has tremeandous power to advance human understanding. My enthusiasm for computer engineering grew as I explored web technology and ultimately cross-platform mobile development. I pivoted from teaching to full-time development in 2017, becoming the lead developer for the International Cloud Appreciation Society. I have developed Flutter, Angular, and Vue frontends, worked with numberous Firebase and AWS back-end technologies, and delivered and maintained live apps to Google Play \& Apple App Stores. I feel very strongly about elegant and accessible design.",
+                  "I have been a full stack mobile and web developer for close to a decade. I began developing software when I was still pursuing a career in teaching mathematics. I have always believed that technology has tremeandous power to advance human understanding. My enthusiasm for computer engineering grew as I explored web technology and ultimately cross-platform mobile development. I pivoted from teaching to full-time development in 2017, becoming the lead developer for the International Cloud Appreciation Society. I have developed Flutter, Angular, and Vue frontends, worked with numberous Firebase and AWS back-end technologies, and delivered and maintained live apps to Google Play & Apple App Stores. I feel very strongly about elegant and accessible design.",
                   textAlign: TextAlign.center,
                 ),
               ],

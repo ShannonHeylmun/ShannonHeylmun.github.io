@@ -40,11 +40,12 @@ class TextLink extends StatelessWidget {
     return InkWell(
       onTap: () => launchURL(url),
       onLongPress: () {
+        Feedback.forLongPress(context);
         Clipboard.setData(ClipboardData(text: url));
       },
       enableFeedback: true,
       borderRadius: BorderRadius.all(Radius.circular(8)),
-      child: Text(text, style: TextStyle(color: color)),
+      child: PaddedText(text, style: TextStyle(color: color)),
     );
   }
 }
@@ -59,10 +60,27 @@ class IconLink extends StatelessWidget {
     return InkWell(
       onTap: () => launchURL(url),
       onLongPress: () {
+        Feedback.forLongPress(context);
         Clipboard.setData(ClipboardData(text: url));
       },
+      enableFeedback: true,
       borderRadius: BorderRadius.all(Radius.circular(8)),
       child: icon,
+    );
+  }
+}
+
+class PaddedText extends StatelessWidget {
+  const PaddedText(this.text, {super.key, this.style});
+
+  final String text;
+  final TextStyle? style;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Text(text, style: style),
     );
   }
 }

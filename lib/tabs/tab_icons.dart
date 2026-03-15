@@ -6,7 +6,7 @@ class ExperienceTabIcon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const HugeIcon(icon: HugeIcons.strokeRoundedWorkHistory);
+    return const HugeIcon(icon: HugeIcons.strokeRoundedBrochure);
   }
 }
 

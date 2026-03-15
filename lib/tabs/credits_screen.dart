@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_extended_wrap/flutter_extended_wrap.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:hugeicons/hugeicons.dart';
 import 'package:sh_portfolio/components/tab_scaffold.dart';
@@ -26,11 +27,12 @@ class CreditsScreen extends StatelessWidget {
                 ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
-                  spacing: 32,
                   children: [
-                    Row(
+                    Row(mainAxisSize: MainAxisSize.max),
+                    ExtendedWrap(
                       spacing: 16,
-                      mainAxisSize: MainAxisSize.min,
+                      runSpacing: 16,
+                      childSizeInDirection: 64,
                       children: [
                         SizedIconLink(
                           link: "https://flutter.dev",
@@ -53,9 +55,8 @@ class CreditsScreen extends StatelessWidget {
                         ),
                       ],
                     ),
-                    Row(
-                      spacing: 16,
-                      mainAxisSize: MainAxisSize.min,
+                    Wrap(
+                      alignment: WrapAlignment.center,
                       children: [
                         TextLink(
                           url: "https://pub.dev/packages/google_fonts",
