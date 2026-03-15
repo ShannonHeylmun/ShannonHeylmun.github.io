@@ -2,4 +2,4 @@
 
 My portfolio written with Flutter
 
-Hosted with github pages [here](ShannonHeylmun.github.io)
+Hosted with github pages [here](https://shannonheylmun.github.io)
