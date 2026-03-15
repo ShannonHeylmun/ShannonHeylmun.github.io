@@ -80,11 +80,11 @@ class CreditsScreen extends StatelessWidget {
                           url: "https://pub.dev/packages/prevent_orphan_text",
                           text: "prevent_orphan_text",
                         ),
-                        TextLink(
-                          context: context,
-                          url: "https://pub.dev/packages/expandable",
-                          text: "expandable",
-                        ),
+                        // TextLink(
+                        //   context: context,
+                        //   url: "https://pub.dev/packages/expandable",
+                        //   text: "expandable",
+                        // ),
                       ],
                     ),
                   ],
