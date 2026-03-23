@@ -17,12 +17,12 @@ const TABS = [
 
 const TAB_SCREENS = [
   EducationScreen(),
-  // PortfolioScreen(),
-  ComingSoon(
-    title: "Portfolio",
-    description: "My projects and work.",
-    imageUrl: "",
-  ),
+  PortfolioScreen(),
+  // ComingSoon(
+  //   title: "Portfolio",
+  //   description: "My projects and work.",
+  //   imageUrl: "",
+  // ),
   ExperienceScreen(),
   AboutScreen(),
   CreditsScreen(),
