@@ -10,6 +10,15 @@ class PortfolioScreen extends StatelessWidget {
     return TabScaffold(
       children: [
         PortfolioCard(
+          assetImage: 'assets/icon_icon.png',
+          name: 'icon_icon',
+          nameLink: "https://shannonheylmun.github.io/icon_icon/",
+          body:
+              'Flutter web app designed to showcase a variety of Flutter packages and act as a lookup tool for those packages. I designed this as a tool for myself initially, then as a challenge, now as a resource for anyone looking for beautiful iconography for a Flutter (or web) project. The tool includes animated icons, Unicode Emoji, Material Icons and Symbols, HugeIcons, Iconoir, and Fluent Icons. Design is responsive and user-friendly. Users can copy emoji, icon names, and code points, to their clipboard when applicable. This project presented a challenge owing to the assortment of icon implementations. This is handled by custom services with specific search and lookup functionality, and a UI which unifies and differentiates where relevant to make each type of icon screen as useful as possible.',
+          semanticLabel:
+              'the icon_icon icon which consists of two letters i where the dots are green and the uprights are pink. The I\'s are separated by a red underscore',
+        ),
+        PortfolioCard(
           name: "Cloud Appreciation Society",
           subtitle: "Flutter, iOS, Android, Angular, Firebase",
           semanticLabel:

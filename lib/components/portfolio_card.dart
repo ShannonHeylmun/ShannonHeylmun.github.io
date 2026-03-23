@@ -1,6 +1,8 @@
+import 'package:ShannonHeylmun.github.io/helpers.dart';
 import 'package:expandable/expandable.dart';
 import 'package:flutter/material.dart';
 import 'package:ShannonHeylmun.github.io/components/app_icon_image.dart';
+import 'package:flutter/services.dart';
 
 class PortfolioCard extends StatelessWidget {
   final String name;
@@ -11,6 +13,7 @@ class PortfolioCard extends StatelessWidget {
 
   final String assetImage;
   final String body;
+  final String? nameLink;
 
   final String? semanticLabel;
   PortfolioCard({
@@ -20,6 +23,7 @@ class PortfolioCard extends StatelessWidget {
     required this.assetImage,
     required this.body,
     required this.semanticLabel,
+    this.nameLink,
   });
 
   @override
@@ -46,9 +50,16 @@ class PortfolioCard extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   mainAxisSize: MainAxisSize.max,
                   children: [
-                    Text(
-                      name,
-                      style: Theme.of(context).textTheme.headlineSmall,
+                    GestureDetector(
+                      child: Text(
+                        name,
+                        style: Theme.of(context).textTheme.headlineSmall,
+                      ),
+                      onLongPress: () => nameLink != null
+                          ? Clipboard.setData(ClipboardData(text: nameLink!))
+                          : null,
+                      onTap: () =>
+                          nameLink != null ? launchURL(nameLink!) : null,
                     ),
                     Text(
                       subtitle ?? "",

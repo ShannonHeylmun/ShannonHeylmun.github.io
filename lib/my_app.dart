@@ -37,11 +37,6 @@ class MyApp extends StatelessWidget {
             fontWeight: FontWeight.w600,
           ),
         ),
-        // TextTheme.of(context).copyWith(
-        //   bodySmall: Theme.of(
-        //     context,
-        //   ).textTheme.bodySmall!.copyWith(color: Colors.red),
-        // ),
       ),
       home: DefaultTabController(
         initialIndex: (TABS.length / 2).floor(),
