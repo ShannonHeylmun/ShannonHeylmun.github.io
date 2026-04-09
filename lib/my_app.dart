@@ -44,14 +44,8 @@ class MyApp extends StatelessWidget {
         child: Scaffold(
           extendBody: true,
           extendBodyBehindAppBar: true,
-          appBar: AppBar(
-            backgroundColor: const Color.fromARGB(239, 255, 255, 255),
-            primary: false,
-            toolbarOpacity: 0.8,
-            automaticallyImplyLeading: false,
-            bottom: const TabBar(tabs: TABS),
-            toolbarHeight: 0,
-          ),
+          appBar: TabBar(tabs: TABS),
+
           body: const TabBarView(children: TAB_SCREENS),
         ),
       ),
