@@ -11,7 +11,7 @@ class TabScaffold extends Scaffold {
             color: Colors.white,
             child: SizedBox.expand(
               child: Align(
-                alignment: AlignmentGeometry.xy(0, -.8),
+                alignment: AlignmentGeometry.xy(0, -.5),
                 child: Container(
                   padding: EdgeInsets.symmetric(horizontal: 16),
                   constraints: BoxConstraints(maxWidth: width),

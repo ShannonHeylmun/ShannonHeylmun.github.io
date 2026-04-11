@@ -35,8 +35,9 @@ class PortfolioCard extends StatelessWidget {
         child: ExpandablePanel(
           controller: expandableController,
           theme: ExpandableThemeData(
-            hasIcon: false,
-            inkWellBorderRadius: BorderRadius.circular(16),
+            // hasIcon: false,
+            // inkWellBorderRadius: BorderRadius.circular(16),
+            useInkWell: false,
           ),
           collapsed: SizedBox.shrink(),
           header: Row(
@@ -50,17 +51,24 @@ class PortfolioCard extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   mainAxisSize: MainAxisSize.max,
                   children: [
-                    GestureDetector(
-                      child: Text(
-                        name,
-                        style: Theme.of(context).textTheme.headlineSmall,
-                      ),
-                      onLongPress: () => nameLink != null
-                          ? Clipboard.setData(ClipboardData(text: nameLink!))
-                          : null,
-                      onTap: () =>
-                          nameLink != null ? launchURL(nameLink!) : null,
-                    ),
+                    nameLink == null
+                        ? Text(
+                            name,
+                            style: Theme.of(context).textTheme.headlineSmall,
+                          )
+                        : InkWell(
+                            child: Text(
+                              name,
+                              style: Theme.of(context).textTheme.headlineSmall,
+                            ),
+                            onLongPress: () => nameLink != null
+                                ? Clipboard.setData(
+                                    ClipboardData(text: nameLink!),
+                                  )
+                                : null,
+                            onTap: () =>
+                                nameLink != null ? launchURL(nameLink!) : null,
+                          ),
                     Text(
                       subtitle ?? "",
                       softWrap: true,

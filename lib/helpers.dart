@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 Future<void> launchURL(String url, {bool isNewTab = true}) async {
@@ -26,6 +27,7 @@ class TextLink extends StatelessWidget {
   final String text;
   final Color? color;
   final BuildContext context;
+  final TextStyle? style;
 
   const TextLink({
     super.key,
@@ -33,19 +35,24 @@ class TextLink extends StatelessWidget {
     required this.url,
     required this.text,
     this.color = Colors.blue,
+    this.style,
   });
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: () => launchURL(url),
-      onLongPress: () {
-        Feedback.forLongPress(context);
-        Clipboard.setData(ClipboardData(text: url));
-      },
-      enableFeedback: true,
-      borderRadius: BorderRadius.all(Radius.circular(8)),
-      child: PaddedText(text, style: TextStyle(color: color)),
+    return Tooltip(
+      textStyle: GoogleFonts.notoSans(),
+      message: url,
+      child: InkWell(
+        onTap: () => launchURL(url),
+        onLongPress: () {
+          Feedback.forLongPress(context);
+          Clipboard.setData(ClipboardData(text: url));
+        },
+        enableFeedback: true,
+        borderRadius: BorderRadius.all(Radius.circular(8)),
+        child: PaddedText(text, style: style ?? TextStyle(color: color)),
+      ),
     );
   }
 }
@@ -57,15 +64,19 @@ class IconLink extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: () => launchURL(url),
-      onLongPress: () {
-        Feedback.forLongPress(context);
-        Clipboard.setData(ClipboardData(text: url));
-      },
-      enableFeedback: true,
-      borderRadius: BorderRadius.all(Radius.circular(8)),
-      child: icon,
+    return Tooltip(
+      textStyle: GoogleFonts.notoSans(),
+      message: url,
+      child: InkWell(
+        onTap: () => launchURL(url),
+        onLongPress: () {
+          Feedback.forLongPress(context);
+          Clipboard.setData(ClipboardData(text: url));
+        },
+        enableFeedback: true,
+        borderRadius: BorderRadius.all(Radius.circular(8)),
+        child: icon,
+      ),
     );
   }
 }
