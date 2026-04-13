@@ -16,13 +16,7 @@ Widget buildWithTextLink({
   return MaterialApp(
     home: Builder(
       builder: (ctx) => Scaffold(
-        body: TextLink(
-          context: ctx,
-          url: url,
-          text: text,
-          color: color,
-          style: style,
-        ),
+        body: TextLink(url: url, text: text, color: color, style: style),
       ),
     ),
   );
@@ -33,7 +27,9 @@ Widget buildWithIconLink({
   Widget icon = const Icon(Icons.star),
 }) {
   return MaterialApp(
-    home: Scaffold(body: IconLink(url: url, icon: icon)),
+    home: Scaffold(
+      body: IconLink(url: url, icon: icon),
+    ),
   );
 }
 
@@ -96,10 +92,7 @@ void main() {
       );
       final padding = tester.widget<Padding>(
         find
-            .ancestor(
-              of: find.text('padded'),
-              matching: find.byType(Padding),
-            )
+            .ancestor(of: find.text('padded'), matching: find.byType(Padding))
             .first,
       );
       expect(padding.padding, const EdgeInsets.all(8.0));
@@ -160,19 +153,16 @@ void main() {
       expect((calls.first.arguments as Map)['text'], 'https://example.com');
     });
 
-    testWidgets('applies default blue color when no style is given',
-        (tester) async {
+    testWidgets('applies default blue color when no style is given', (
+      tester,
+    ) async {
       // Construct TextLink directly — buildWithTextLink always passes an
       // explicit color:, which would shadow the default Colors.blue value.
       await tester.pumpWidget(
         MaterialApp(
           home: Builder(
             builder: (ctx) => Scaffold(
-              body: TextLink(
-                context: ctx,
-                url: 'https://example.com',
-                text: 'Click me',
-              ),
+              body: TextLink(url: 'https://example.com', text: 'Click me'),
             ),
           ),
         ),

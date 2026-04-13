@@ -52,31 +52,31 @@ class CreditsScreen extends StatelessWidget {
                         // ),
                       ],
                     ),
+                    TextLink(
+                      url:
+                          "https://github.com/ShannonHeylmun/shannonheylmun.github.io",
+                      text: "Source",
+                    ),
                     Wrap(
                       alignment: WrapAlignment.center,
                       children: [
                         TextLink(
                           url: "https://pub.dev/packages/google_fonts",
                           text: "google_fonts",
-                          context: context,
                         ),
                         TextLink(
                           url: "https://pub.dev/packages/logging",
                           text: "logging",
-                          context: context,
                         ),
                         TextLink(
                           url: "https://pub.dev/packages/hugeicons",
                           text: "hugeicons",
-                          context: context,
                         ),
                         TextLink(
                           url: "https://pub.dev/packages/flutter_svg",
                           text: "flutter_svg",
-                          context: context,
                         ),
                         TextLink(
-                          context: context,
                           url: "https://pub.dev/packages/prevent_orphan_text",
                           text: "prevent_orphan_text",
                         ),

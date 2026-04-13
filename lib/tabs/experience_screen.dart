@@ -18,87 +18,35 @@ class ExperienceScreen extends StatelessWidget {
         ),
         WorkCard(
           children: [
-            TextLink(
-              url: "https://flutter.dev/",
-              text: "Flutter",
-              context: context,
-            ),
-            TextLink(url: "https://dart.dev/", text: "Dart", context: context),
-            TextLink(
-              url: "https://git-scm.com/",
-              text: "Git",
-              context: context,
-            ),
-            TextLink(
-              url: "https://angular.dev",
-              text: "Angular",
-              context: context,
-            ),
-            TextLink(
-              url: "https://firebase.google.com",
-              text: "Firebase",
-              context: context,
-            ),
-            TextLink(
-              url: "https://aws.amazon.com",
-              text: "AWS",
-              context: context,
-            ),
+            TextLink(url: "https://flutter.dev/", text: "Flutter"),
+            TextLink(url: "https://dart.dev/", text: "Dart"),
+            TextLink(url: "https://git-scm.com/", text: "Git"),
+            TextLink(url: "https://angular.dev", text: "Angular"),
+            TextLink(url: "https://firebase.google.com", text: "Firebase"),
+            TextLink(url: "https://aws.amazon.com", text: "AWS"),
             TextLink(
               url: "https://www.typescriptlang.org/",
               text: "Typescript",
-              context: context,
             ),
             TextLink(
               url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
               text: "HTML",
-              context: context,
             ),
-            TextLink(
-              url: "https://www.ruby-lang.org/en/",
-              text: "Ruby",
-              context: context,
-            ),
-            TextLink(
-              url: "https://sass-lang.com",
-              text: "SASS",
-              context: context,
-            ),
-            TextLink(
-              url: "https://getbootstrap.com",
-              text: "Bootstrap",
-              context: context,
-            ),
-            TextLink(
-              url: "tailwindcss.com/",
-              text: "tailwindcss",
-              context: context,
-            ),
-            TextLink(
-              url: "https://www.python.org/",
-              text: "Python",
-              context: context,
-            ),
-            TextLink(
-              url: "https://www.latex-project.org/",
-              text: "LaTeX",
-              context: context,
-            ),
-            TextLink(
-              url: "https://m3.material.io",
-              text: "Material Design",
-              context: context,
-            ),
+            TextLink(url: "https://www.ruby-lang.org/en/", text: "Ruby"),
+            TextLink(url: "https://sass-lang.com", text: "SASS"),
+            TextLink(url: "https://getbootstrap.com", text: "Bootstrap"),
+            TextLink(url: "tailwindcss.com/", text: "tailwindcss"),
+            TextLink(url: "https://www.python.org/", text: "Python"),
+            TextLink(url: "https://www.latex-project.org/", text: "LaTeX"),
+            TextLink(url: "https://m3.material.io", text: "Material Design"),
             TextLink(
               url: "https://developer.apple.com/design/",
-              context: context,
               text: "iOS Design",
             ),
             TextLink(
               url:
                   "https://www.interaction-design.org/literature/topics/responsive-design",
               text: "Responsive Design",
-              context: context,
             ),
           ],
         ),
@@ -135,18 +83,15 @@ class ExperienceScreen extends StatelessWidget {
               url:
                   "https://teaching.cornell.edu/teaching-resources/active-collaborative-learning/flipping-classroom",
               text: "Flipped Teaching",
-              context: context,
             ),
             TextLink(
               url:
                   "https://www.wise.live/blog/what-is-the-socratic-method-of-teaching/",
               text: "Socratic Tutoring",
-              context: context,
             ),
             TextLink(
               url: "https://projecteuler.net/progress=s_heylmun",
               text: "Project Euler",
-              context: context,
             ),
             PaddedText("Mechanical Drafting"),
             PaddedText("3D-printing"),

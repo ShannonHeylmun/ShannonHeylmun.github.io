@@ -26,12 +26,10 @@ class TextLink extends StatelessWidget {
   final String url;
   final String text;
   final Color? color;
-  final BuildContext context;
   final TextStyle? style;
 
   const TextLink({
     super.key,
-    required this.context,
     required this.url,
     required this.text,
     this.color = Colors.blue,
@@ -45,8 +43,7 @@ class TextLink extends StatelessWidget {
       message: url,
       child: InkWell(
         onTap: () => launchURL(url),
-        onLongPress: () {
-          Feedback.forLongPress(context);
+        onDoubleTap: () {
           Clipboard.setData(ClipboardData(text: url));
         },
         enableFeedback: true,
@@ -69,8 +66,7 @@ class IconLink extends StatelessWidget {
       message: url,
       child: InkWell(
         onTap: () => launchURL(url),
-        onLongPress: () {
-          Feedback.forLongPress(context);
+        onDoubleTap: () {
           Clipboard.setData(ClipboardData(text: url));
         },
         enableFeedback: true,
