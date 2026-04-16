@@ -71,7 +71,7 @@ class IconLink extends StatelessWidget {
         },
         enableFeedback: true,
         borderRadius: BorderRadius.all(Radius.circular(8)),
-        child: icon,
+        child: Padding(padding: const EdgeInsets.all(8.0), child: icon),
       ),
     );
   }

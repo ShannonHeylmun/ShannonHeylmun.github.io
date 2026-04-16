@@ -28,8 +28,6 @@ class CreditsScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Wrap(
-                      spacing: 16,
-                      runSpacing: 16,
                       children: [
                         SizedIconLink(
                           link: "https://flutter.dev",
