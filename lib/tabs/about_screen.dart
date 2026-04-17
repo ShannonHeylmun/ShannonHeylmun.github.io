@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hugeicons/hugeicons.dart';
 import 'package:prevent_orphan_text/prevent_orphan_text.dart';
 import 'package:ShannonHeylmun.github.io/components/profile_pic.dart';
@@ -21,7 +22,7 @@ class AboutScreen extends StatelessWidget {
               spacing: 16,
               children: [
                 Container(
-                  padding: const EdgeInsets.all(16.0),
+                  padding: const EdgeInsets.all(8.0),
                   decoration: BoxDecoration(
                     border: Border(
                       top: BorderSide(width: 2.0, color: Colors.orange),
@@ -31,8 +32,6 @@ class AboutScreen extends StatelessWidget {
 
                   child: Wrap(
                     verticalDirection: VerticalDirection.down,
-                    spacing: 16,
-                    runSpacing: 16,
                     children: [
                       IconLink(
                         url:
@@ -43,9 +42,19 @@ class AboutScreen extends StatelessWidget {
                         url: "https://github.com/ShannonHeylmun",
                         icon: HugeIcon(icon: HugeIcons.strokeRoundedGithub),
                       ),
-                      GestureDetector(
-                        child: HugeIcon(icon: HugeIcons.strokeRoundedMail01),
-                        onTap: () => launchEmail('shannonheylmun@gmail.com'),
+                      Tooltip(
+                        message: "Email shannonheylmun@gmail.com",
+                        textStyle: GoogleFonts.notoSans(),
+                        child: InkWell(
+                          borderRadius: BorderRadius.all(Radius.circular(8)),
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: HugeIcon(
+                              icon: HugeIcons.strokeRoundedMail01,
+                            ),
+                          ),
+                          onTap: () => launchEmail('shannonheylmun@gmail.com'),
+                        ),
                       ),
                     ],
                   ),
