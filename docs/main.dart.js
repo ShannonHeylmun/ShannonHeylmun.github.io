@@ -24351,7 +24351,7 @@ $iGv:1}
 A.afa.prototype={
 $1(a){var s=A.cu().b
 s=s==null?null:s.canvasKitBaseUrl
-return(s==null?"https://www.gstatic.com/flutter-canvaskit/425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb/":s)+a},
+return(s==null?"https://www.gstatic.com/flutter-canvaskit/59aa584fdf100e6c78c785d8a5b565d1de4b48ab/":s)+a},
 $S:100}
 A.GL.prototype={
 gn(a){var s=this.a
@@ -38820,7 +38820,7 @@ A.JF.prototype={
 L(a){return A.yq(new A.pC(this.c,this.d,null),64,64)}}
 A.Fg.prototype={
 L(a){var s=null,r="University of Florida"
-return A.K2(A.c([new A.lx(s,"Education",s),new A.pl("08","Valencia College","Associate of Arts in Mathematics",s),new A.pl("10",r,"Bachelor of Science in Mathematics",s),new A.pl("12",r,"Master of Arts in Teaching Mathematics",s)],t.F),500)}}
+return A.K2(A.c([new A.lx(s,"Education",s),new A.pl("08","Valencia College","Associate of Arts in Mathematics",s),new A.pl("11",r,"Bachelor of Science in Mathematics",s),new A.pl("13",r,"Master of Arts in Teaching Mathematics",s)],t.F),500)}}
 A.Fz.prototype={
 L(a){var s=null,r=t.F
 return A.K2(A.c([new A.lx(A.pB(s,B.GL),"Full-Stack Development",s),new A.re(A.c([A.co("Flutter","https://flutter.dev/"),A.co("Dart","https://dart.dev/"),A.co("Git","https://git-scm.com/"),A.co("Angular","https://angular.dev"),A.co("Firebase","https://firebase.google.com"),A.co("AWS","https://aws.amazon.com"),A.co("Typescript","https://www.typescriptlang.org/"),A.co("HTML","https://developer.mozilla.org/en-US/docs/Web/HTML"),A.co("Ruby","https://www.ruby-lang.org/en/"),A.co("SASS","https://sass-lang.com"),A.co("Bootstrap","https://getbootstrap.com"),A.co("tailwindcss","tailwindcss.com/"),A.co("Python","https://www.python.org/"),A.co("LaTeX","https://www.latex-project.org/"),A.co("Material Design","https://m3.material.io"),A.co("iOS Design","https://developer.apple.com/design/"),A.co("Responsive Design","https://www.interaction-design.org/literature/topics/responsive-design")],r),s),new A.lx(A.pB(s,B.H2),"Mathematics Teaching",s),new A.re(A.c([new A.c6("Elementary Algebra",s,s),new A.c6("Geometry",s,s),new A.c6("Trigonometry",s,s),new A.c6("Pre-Calculus",s,s),new A.c6("Calculus",s,s),new A.c6("Differential Equations",s,s),new A.c6("Statistics",s,s),new A.c6("Discrete Mathematics",s,s),new A.c6("Probability",s,s),new A.c6("Number Theory",s,s),new A.c6("Combinatorics",s,s),new A.c6("Set Theory",s,s),new A.c6("Formal Logic",s,s),new A.c6("Elementary Graph Theory",s,s),new A.c6("Voting Theory",s,s)],r),s),new A.lx(A.pB(s,B.GD),"Interests & Hobbies",s),new A.re(A.c([A.co("Flipped Teaching","https://teaching.cornell.edu/teaching-resources/active-collaborative-learning/flipping-classroom"),A.co("Socratic Tutoring","https://www.wise.live/blog/what-is-the-socratic-method-of-teaching/"),A.co("Project Euler","https://projecteuler.net/progress=s_heylmun"),new A.c6("Mechanical Drafting",s,s),new A.c6("3D-printing",s,s),new A.c6("CNC",s,s),new A.c6("SCUBA",s,s),new A.c6("Portuguese",s,s),new A.c6("Catalan",s,s),new A.c6("Hungarian",s,s),new A.c6("Gardening",s,s),new A.c6("Animals",s,s)],r),s)],r),600)}}

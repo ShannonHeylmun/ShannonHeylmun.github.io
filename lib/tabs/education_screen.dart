@@ -20,13 +20,13 @@ class EducationScreen extends StatelessWidget {
         ),
         EducationCard(
           context: context,
-          year: '10',
+          year: '11',
           school: 'University of Florida',
           degree: 'Bachelor of Science in Mathematics',
         ),
         EducationCard(
           context: context,
-          year: '12',
+          year: '13',
           school: 'University of Florida',
           degree: 'Master of Arts in Teaching Mathematics',
         ),
